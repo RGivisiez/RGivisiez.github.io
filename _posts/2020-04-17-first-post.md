@@ -138,3 +138,8 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 -----
 
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/34/?share_key=C17k69HZbUidMAVQ5MUH5N" target="_blank" title="death_ratio" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/34.png?share_key=C17k69HZbUidMAVQ5MUH5N" alt="death_ratio" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:34" sharekey-plotly="C17k69HZbUidMAVQ5MUH5N" src="https://plot.ly/embed.js" async></script>
+</div>
