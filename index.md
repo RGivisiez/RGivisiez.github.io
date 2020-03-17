@@ -36,8 +36,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-<div>
-    <a href="https://plot.ly/~jfdarre/632/" target="_blank" title="Default rates per states&lt;br&gt;(Hover for breakdown) (11)" style="display: block; text-align: center;"><img src="https://plot.ly/~jfdarre/632.png" alt="Default rates per states&lt;br&gt;(Hover for breakdown) (11)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="jfdarre:632" src="https://plot.ly/embed.js" async></script>
-</div>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/34.embed"></iframe>
 
