@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Example content
-excerpt: "What is a static website generator, and why should I care?"
-modified: 2/29/2016, 9:00:24
-tags: [intro, beginner, jekyll, tutorial]
-comments: true
-category: blog
+title: "Hank Quinlan, Horrible Cop, Launches Site"
+date: 2014-04-30
 ---
+
+Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
