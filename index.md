@@ -36,5 +36,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/34.embed"></iframe>
+<div>
+    <a href="https://plot.ly/~rgivisiez/34/?share_key=C17k69HZbUidMAVQ5MUH5N" target="_blank" title="death_ratio" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/34.png?share_key=C17k69HZbUidMAVQ5MUH5N" alt="death_ratio" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:34" sharekey-plotly="C17k69HZbUidMAVQ5MUH5N" src="https://plot.ly/embed.js" async></script>
+</div>
 
