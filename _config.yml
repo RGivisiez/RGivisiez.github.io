@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: texture
+remote_theme: texture
 plugins:
   - jekyll-feed
 
