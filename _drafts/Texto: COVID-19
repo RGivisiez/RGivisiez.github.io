@@ -1,0 +1,43 @@
+Texto: COVID-19
+
+Publico: Pessoas medianas
+
+Objetivos:
+
+- Explicar a importância da dimensão efetiva.
+- Explicar a importância de medidas de contenção e prevenção.
+- Mostrar a taxa de mortalidade em países que não tomaram medidas
+importantes e nos que tomaram.
+
+
+Flow:
+
+BH - SP : 1h 10min / 7h 26 min (588km)
+BH - Carangola : 5h 54min (344km)
+SP - Italia : 10h
+SP - Miami: 8h 35min
+
+- Explicar a dimensão efetiva com exemplos. 
+  - Distância efetiva entre BH - Carangola - China
+  - Plot do mapa mundi com as conexões.
+  - Plot com a série temporal dos casos confirmados.
+
+- Falar das medidas de contenção e mostrar o gráfico de taxa de morte.
+  - Comentar brevemente o que cada país fez.
+  
+- Gráfico da 
+
+
+
+refs:
+
+COVID-19 Complex Networks
+- http://rocs.hu-berlin.de/corona/docs/analysis/visual_analytics/
+- http://rocs.hu-berlin.de/viz/sgb/
+- http://rocs.hu-berlin.de/D3/herd/
+
+Dinâmica de doentes/vacinados/suscetíveis
+- http://rocs.hu-berlin.de/D3/herd/
+
+Artigo Hidden Geometry of Complex Network Contagion Phenomena
+- http://www.uvm.edu/pdodds/research/papers/others/2013/brockmann2013a.pdf
