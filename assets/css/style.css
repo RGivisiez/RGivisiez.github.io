@@ -1,8 +1,8 @@
 body {
   display: grid;
-  grid-template-areas: "menu" "posts" "footer";
+  grid-template-areas: "menu" "posts";
   grid-template-columns: 20% auto;
-  grid-template-rows: 90% 10%;
+  grid-template-rows: 100%;
 }
 
 nav {
@@ -17,8 +17,8 @@ main {
   max-width: 1200px;
 }
 
-footer {
+/*footer {
   grid-area: "footer";
   text-align: center;
   grid-column: 1 / 3;
-}
+}*/

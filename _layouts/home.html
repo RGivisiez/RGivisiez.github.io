@@ -12,8 +12,6 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/posts.css">
-    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/home.css"> -->
-
 
   </head>
 
@@ -41,111 +39,78 @@
     <main>
 
       <section class="posts_area">
-        <div class="main_post">
 
-          <div class="main_post_img" style="
-            background-image: url(/img/cov.jpg)">
-          </div>
+        {% for post in site.posts limit:1 %}
 
-          <div class="main_post_text">
+          {% if forloop.index == 1 %}
 
-            <header class="main_text_header">
-              <h1>Welcome to jekyll</h1>
-              <h2>2020-04-04</h2>
-            </header>
+            <div class="main_post">
 
-            <p class="main_text_body">
-             You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
-           </p>
+              <div class="main_post_img" style="
+                background-image: url('{{ post.img_url }}')">
+              </div>
 
-            <p class="main_text_tags">#Tags1 #Tags2</p>
+              <div class="main_post_text">
 
-          </div>
-        </div>
+                <header class="main_text_header">
+                  <a href='{{ post.url }}'><h1> {{ post.title }} </h1></a>
+                  <h2> {{ post.date | date: "%d/%m/%Y" }} </h2>
+                </header>
+
+                <p class="main_text_body">
+                 {{ post.description }}
+               </p>
+
+                <p class="main_text_tags">
+                  {% for tag in post.categories %}
+                    #{{ tag }}
+                  {% endfor %}
+                </p>
+
+              </div>
+            </div>
+          {% endif %} 
+        {% endfor %}
 
         <div class="latest_posts">
-          
-          <div class="latest_posts_box">     
-                 
-            <div class="latest_posts_img" style="
-              background-image: url(/img/cov.jpg)">
-            </div>
+          {% for post in site.posts %}
 
-            <div class="latest_posts_txt">
+            {% if forloop.index != 1 %}
 
-              <header class="latest_posts_header">
-                <h1>Welcome to jekyll</h1>
-                <h2>2020-04-04</h2>
-              </header>
+              <div class="latest_posts_box">     
+                     
+                <div class="latest_posts_img" style="
+                  background-image: url('{{ post.img_url }}')">
+                </div>
 
-              <p class="latest_posts_body">
-               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
-             </p>
+                <div class="latest_posts_txt">
 
-              <p class="latest_posts_tags">#Tags1 #Tags2</p>
-            </div>
-          </div>
+                  <header class="latest_posts_header">
+                    <a href='{{ post.url }}'><h1> {{ post.title }} </h1></a>
+                    <h2> {{ post.date | date: "%d/%m/%Y" }} </h2> 
+                  </header>
 
-          <div class="latest_posts_box">     
-                 
-            <div class="latest_posts_img" style="
-              background-image: url(/img/cov.jpg)">
-            </div>
+                  <p class="latest_posts_body">
+                    {{ post.description }}
+                 </p>
 
-            <div class="latest_posts_txt">
+                <p class="main_text_tags">
+                  {% for tag in post.categories %}
+                    #{{ tag }}
+                  {% endfor %}
+                </p>
 
-              <header class="latest_posts_header">
-                <h1>Welcome to jekyll</h1>
-                <h2>2020-04-04</h2>
-              </header>
-
-              <p class="latest_posts_body">
-               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
-             </p>
-
-              <p class="latest_posts_tags">#Tags1 #Tags2</p>
-            </div>
-          </div>
-
-          <div class="latest_posts_box">     
-                 
-            <div class="latest_posts_img" style="
-              background-image: url(/img/cov.jpg)">
-            </div>
-
-            <div class="latest_posts_txt">
-
-              <header class="latest_posts_header">
-                <h1>Welcome to jekyll</h1>
-                <h2>2020-04-04</h2>
-              </header>
-
-              <p class="latest_posts_body">
-               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
-             </p>
-
-              <p class="latest_posts_tags">#Tags1 #Tags2</p>
-            </div>
-          </div>
-
+                </div>
+              </div>
+            {% endif %} 
+          {% endfor %}
         </div>
       </section>  
     </main>
 
-    <footer>
+<!--     <footer>
 
-      {% for post in site.posts %}
-        
-        <!-- Main post -->
-
-        {% if forloop.index == 2 %}
-          <h1>{{ post.description }}</h1>
-        {% endif %}
-
-        <!-- Latest posts -->
-
-      {% endfor %}    
-    </footer>
+    </footer> -->
 
   </body>
 
