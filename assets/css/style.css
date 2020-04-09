@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-areas: "menu" "posts" "footer";
+  grid-template-columns: 20% auto;
+  grid-template-rows: 90% 10%;
+}
+
+nav {
+  background: black;
+  grid-area: "menu"; 
+  min-height: 100vh;
+}
+
+main {
+  background: rgb(255, 255, 255);;
+  grid-area: "posts";
+  max-width: 1200px;
+}
+
+footer {
+  grid-area: "footer";
+  text-align: center;
+  grid-column: 1 / 3;
+}

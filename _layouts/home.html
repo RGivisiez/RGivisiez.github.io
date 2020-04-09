@@ -1,24 +1,152 @@
----
-layout: page
----
-{%- if site.posts.size > 0 -%}
-<ul class="posts">
-	{%- for post in site.posts -%}
-	<li>
-		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-		<div class="post-meta">
-			<a class="post-link" href="{{ post.url | relative_url }}">
-				<h2 class="post-title">{{ post.title | escape }}</h2>
-			</a>
-			<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
-		</div>
-		<div class="post">
-			{%- if site.show_excerpts -%}
-			{{ post.excerpt }}
-			{%- endif -%}
-		</div>
-	</li>
-	{%- endfor -%}
-</ul>
-{%- endif -%}
+<!DOCTYPE html>
 
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1" >
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/posts.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/home.css"> -->
+
+
+  </head>
+
+  <body>
+    
+    <nav>      
+      <section class="menu">
+
+        <header class="menu_header">
+          <img src="/img/photo.jpg">
+          <h1>Ronaldo G. M. Rodrigues</h1>
+        </header>
+
+        <ul class="menu_list">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="">About Me</a></li>
+          <li><a href="">Livros</a></li>
+          <li><a href="">Tags</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <main>
+
+      <section class="posts_area">
+        <div class="main_post">
+
+          <div class="main_post_img" style="
+            background-image: url(/img/cov.jpg)">
+          </div>
+
+          <div class="main_post_text">
+
+            <header class="main_text_header">
+              <h1>Welcome to jekyll</h1>
+              <h2>2020-04-04</h2>
+            </header>
+
+            <p class="main_text_body">
+             You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
+           </p>
+
+            <p class="main_text_tags">#Tags1 #Tags2</p>
+
+          </div>
+        </div>
+
+        <div class="latest_posts">
+          
+          <div class="latest_posts_box">     
+                 
+            <div class="latest_posts_img" style="
+              background-image: url(/img/cov.jpg)">
+            </div>
+
+            <div class="latest_posts_txt">
+
+              <header class="latest_posts_header">
+                <h1>Welcome to jekyll</h1>
+                <h2>2020-04-04</h2>
+              </header>
+
+              <p class="latest_posts_body">
+               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
+             </p>
+
+              <p class="latest_posts_tags">#Tags1 #Tags2</p>
+            </div>
+          </div>
+
+          <div class="latest_posts_box">     
+                 
+            <div class="latest_posts_img" style="
+              background-image: url(/img/cov.jpg)">
+            </div>
+
+            <div class="latest_posts_txt">
+
+              <header class="latest_posts_header">
+                <h1>Welcome to jekyll</h1>
+                <h2>2020-04-04</h2>
+              </header>
+
+              <p class="latest_posts_body">
+               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
+             </p>
+
+              <p class="latest_posts_tags">#Tags1 #Tags2</p>
+            </div>
+          </div>
+
+          <div class="latest_posts_box">     
+                 
+            <div class="latest_posts_img" style="
+              background-image: url(/img/cov.jpg)">
+            </div>
+
+            <div class="latest_posts_txt">
+
+              <header class="latest_posts_header">
+                <h1>Welcome to jekyll</h1>
+                <h2>2020-04-04</h2>
+              </header>
+
+              <p class="latest_posts_body">
+               You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve` ,
+             </p>
+
+              <p class="latest_posts_tags">#Tags1 #Tags2</p>
+            </div>
+          </div>
+
+        </div>
+      </section>  
+    </main>
+
+    <footer>
+
+      {% for post in site.posts %}
+        
+        <!-- Main post -->
+
+        {% if forloop.index == 2 %}
+          <h1>{{ post.description }}</h1>
+        {% endif %}
+
+        <!-- Latest posts -->
+
+      {% endfor %}    
+    </footer>
+
+  </body>
+
+</html>

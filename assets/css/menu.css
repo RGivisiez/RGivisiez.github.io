@@ -1,0 +1,58 @@
+.menu, .menu_header h1, .menu_list a { 
+  background: black;
+  color: white;
+}
+
+.menu {
+  display: grid;
+  grid-template-areas: "menu_header" "menu_list";
+  grid-template-rows: 20% auto; 
+  grid-gap: 2em;
+  margin: 3.33em 1.2em 1.2em 1.2em;
+  position: fixed;
+  width: calc(20% - 1.2em - 1.2em);
+  height: calc(100vh - 3.3em - 1.2em);
+}
+
+.menu_header {
+  grid-area: "menu_header";
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menu_header img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  border-radius: 100%;
+}
+
+.menu_header h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.menu_list {
+  grid-area: "menu_list";
+}
+
+.menu_list li {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; 
+  font-size: 1em;
+  line-height: 2em;
+  letter-spacing: 0.1rem;
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+} 
+
+.menu_list a {
+  text-decoration: none;
+}
+
+.menu_list a:hover {
+  color: #ef9221;
+  text-decoration: underline;
+}
