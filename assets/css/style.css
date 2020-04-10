@@ -1,12 +1,15 @@
 body {
   display: grid;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
   grid-template-areas: "menu" "posts";
-  grid-template-columns: 20% auto;
+  grid-template-columns: 300px auto;
   grid-template-rows: 100%;
+  font-family: 'Karla', sans-serif;
 }
 
 nav {
-  background: black;
+  background: #292929;
   grid-area: "menu"; 
   min-height: 100vh;
 }
