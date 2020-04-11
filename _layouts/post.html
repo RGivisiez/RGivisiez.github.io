@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/code_highlighting.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/post.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/
+    css2?family=Crimson+Pro&family=Karla&display=swap" rel="stylesheet">
 
   </head>
 
@@ -21,7 +22,7 @@
       <section class="menu">
 
         <header class="menu_header">
-          <img src="/img/photo.jpg">
+            <img src="/assets/img/perfil/photo.jpg">
         </header>
 
         <ul class="menu_list">
@@ -29,20 +30,12 @@
           <li><a href="/about">About</a></li>
           <li><a href="/all_tags">Tags</a></li>
           <li><a href="/contact">Contato</a></li>
+          {%- include social.html -%}
         </ul>
       </section>
     </nav>
 
     <main>
-
-      <section class="title_header">
-        <h2>
-          {{ page.date | date: "%d/%m/%Y" }}
-        </h2>
-       <h1>
-        {{ page.title }}
-       </h1> 
-      </section>
 
       <section>
 
@@ -50,9 +43,22 @@
           background-image: url('{{ page.img_url }}')">
         </div>
 
-        <div class="content">
-          {{ content }}
+        <div class="post">
+
+          <div class="title_header">
+              <h1>
+                {{ page.title }}
+              </h1> 
+              <h2>
+                {{ page.date | date: "%d/%m/%Y" }}
+              </h2>
+          </div>
+
+          <div class="content">
+            {{ content }}
+          </div>
         </div>
+
       </section> 
 
     </main>

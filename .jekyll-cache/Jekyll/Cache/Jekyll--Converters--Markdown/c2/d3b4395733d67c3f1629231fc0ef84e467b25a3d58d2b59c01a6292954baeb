@@ -1,0 +1,241 @@
+I"�0<p>O coronavírus (COVID-19) foi descoberto em dezembro
+de 2019, na China, e, em poucos meses, conseguiu se 
+espalhar pelo mundo. Essa rápida disseminação não é
+por acaso e tem grande semelhança com a forma como
+uma notícia se propaga em redes sociais.</p>
+
+<p>Na internet, o conceito de distância não faz muito sentido
+se você pensar bem. Gastamos o mesmo tempo enviando uma mensagem
+para alguém do nosso lado ou para uma pessoa no Japão. Esse
+nível de conexão mediada pela internet permite a propagação
+rápida e fácil de informação ao redor do mundo. Infelizmente,
+as dinâmicas de sistemas complexos e conectados também auxiliam
+na disseminação de vírus e outras coisas. Para enxergarmos o
+caminho que o vírus traça da China até os outros países, temos que
+esquecer o conceito de distância e pensar somente no tempo.
+Eu demoro 5h e 30min para ir de Belo Horizonte até a minha cidade
+natal, são 334km de carro. Porém, para ir a São Paulo eu
+levo só 1h indo de avião, de carro são 588km. Então,
+efetivamente, São Paulo está mais perto de Belo Horizonte
+do que minha cidade natal, apesar da grande diferença de
+quilômetros.</p>
+
+<p>
+  <img src="/assets/img/COVID-19/dist_time.png" style="display: block; width: 100%;
+    margin-left: auto; margin-right: auto;" />
+</p>
+
+<p>Essa distância efetiva nos deixa muito mais próximos
+de países como a China, Itália e EUA do que imaginamos.
+A figura abaixo foi feita por pesquisadores de Berlin, usando
+os dados de conexões de todos os aeroportos do mundo.
+Os lugares mais afastados no gráfico são mais difíceis
+de se chegar, porque temos que passar por mais aeroportos
+e leva mais tempo. Repare que para ir do Aeroporto de
+Confins (BH) até a China, só é necessário passar por dois
+lugares: Guarulhos (SP) e Paris (França). Olhando para a
+distância efetiva não estamos tão longe assim da China,
+na verdade é bem fácil ir pra lá.</p>
+
+<p><img src="/assets/img/COVID-19/berlin.png" style="display: block; width: 100%;     margin-left: auto; margin-right: auto;" /></p>
+
+<p>Na imagem abaixo temos todas as conexões
+entre os aeroportos do mundo.</p>
+
+<p><img src="/assets/img/COVID-19/airport_connections.png" style="display: block; width: 100%;     margin-left: auto; margin-right: auto;" /></p>
+
+<blockquote>
+  <p>Retirei essas figuras da página de um grupo de pesquisas
+de Berlin (<a href="http://rocs.hu-berlin.de/corona/">Link</a>).
+Este mesmo grupo disponibiliza a visualização
+dá distância efetiva e as conexões entre cada aeroporto
+do mundo (<a href="http://rocs.hu-berlin.de/viz/sgb/">link</a>).</p>
+</blockquote>
+
+<p>Todas essas conexões que nos permitem viajar de forma
+fácil pelo mundo, também possibilita que o coronavírus
+se espalhe com mais facilidade. Some esse nível de conexão
+ao fato de que o vírus demora de 2 a 14 dias para causar
+sintomas em uma pessoa infectada e temos uma tempestade
+perfeita. Pessoas andando pelo mundo carregando o vírus
+e sem apresentar sintomas.</p>
+
+<p>A animação abaixo mostra os lugares onde temos
+casos de corona vírus confirmados, os pontos
+vermelhos são os lugares novos confirmados naquele
+dia e os pontos amarelos são os países que já tiveram
+casos confirmados em dias anteriores. O gráfico abaixo do mapa mostra os 10
+países com maior número de casos confirmados naquele
+dia. Repare em como os casos na Itália e nos EUA
+crescem rápido.</p>
+
+<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/47.embed"></iframe>
+
+<p>Existem muitos estudos sobre redes complexas
+e cheias de conexões como a dos aeroportos e a
+da internet. O que pode ser usado de forma direta
+desses estudos é que, quanto maior o número de conexões,
+mais fácil é a propagação de informação. Por exemplo,
+um YouTuber com muitos seguidores (muitas conexões)
+consegue passar informação para milhares de pessoas
+em pouco tempo. O mesmo é valido para o vírus: se ele
+consegue infectar uma cidade com um aeroporto
+importante, que tem muitos voos (conexões) para 
+todo o mundo, ele vai conseguir se disseminar com
+mais facilidade.</p>
+
+<p>A forma mais eficiente de impedir essa propagação
+é cortando essas conexões, ou seja, fechando os
+aeroportos de áreas infectadas e impedindo pessoas
+doentes de viajar. Porém, já passamos desse ponto,
+não é mais eficiente só fechar aeroportos, agora temos
+que cortar as conexões geradas pelas pessoas.
+Em essência, essas conexões são iguais às dos
+aeroportos.</p>
+
+<p>Um caixa de supermercado trabalhando doente é 
+equivalente a um aeroporto com muitas conexões,
+pois consegue distribuir um vírus para centenas
+de pessoas que são atendidas diariamente. Inclusive,
+essa pessoa vai conseguir infectar gente que nem ao
+supermercado foi, como a figura abaixo mostra.
+Por isso, para conter a disseminação
+do vírus, é importante diminuir o contato com as pessoas
+e principalmente não ir trabalhar doente.</p>
+
+<p style="text-align:center">
+<img src="/assets/img/COVID-19/supermercado.png" width="400" class="center" />
+</p>
+
+<p>Até agora, o que podemos dizer sobre a taxa de
+mortalidade do vírus é que ela depende muito das
+decisões tomadas pelo governo. O gráfico abaixo mostra
+a taxa de mortalidade atual em cada país. Perceba
+a diferença entre a China e a Itália, enquanto
+a primeira tem mais de 80 mil casos confirmados
+e uma taxa de mortalidade próxima de 4%, a segunda
+tem 30 mil casos confirmados e uma taxa de 8%. As
+escolhas que fizermos agora vão influenciar os
+resultados de amanhã.</p>
+
+<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/40.embed"></iframe>
+
+<div style="position: absolute;">
+    <a href="https://plot.ly/~rgivisiez/40/?share_key=YAII62Q2SjvilVlEiZdvNC" target="_blank" title="death_ratio" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/40.png?share_key=YAII62Q2SjvilVlEiZdvNC" alt="death_ratio" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:40" sharekey-plotly="YAII62Q2SjvilVlEiZdvNC" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p>Todos os países estão tendo dificuldades em
+controlar a propagação do vírus. O único país
+que conseguiu até agora foi a Coreia do Sul,
+apesar de um surto inicial grande. Essencialmente,
+o que o governo da Coreia do Sul fez foi diminuir
+e rastrear as conexões entre as pessoas, principalmente
+as infectadas pelo vírus. O esforço foi enorme,
+pois usaram o seguinte procedimento: após uma pessoa ser
+identificada como infectada, eles pegavam os dados
+do GPS e do cartão de crédito dessa pessoa, cruzavam
+esses dados com os dados de GPS e cartão de crédito
+de outras pessoas e encontravam quem tinha passado
+a menos de 100 metros da pessoa infectada. Depois
+disso, todas as pessoas que tinham passado perto do
+infectado eram testadas para ver se tinham o vírus.
+Somando isso à restrição de saída das pessoas, limpeza
+de metrôs e outras medidas, eles conseguiram
+controlar o vírus.</p>
+
+<p>A China também já conseguiu controlar o número de casos
+recentemente. Para isso, fecharam Wuhan, a cidade de origem
+do vírus no dia 23 de janeiro, pouco mais de 20 dias
+após confirmarem um novo tipo de vírus. Ainda assim,
+a China teve 80 mil casos confirmados e demoraram dois meses
+para começar a ver os número de casos se estabilizar. 
+É importante lembrar que estamos falando de uma
+das maiores economias do mundo,
+com recursos suficientes para gastar.</p>
+
+<p>Observe nos gráficos abaixo como o número de
+casos da China e da Coreia do Sul se estabilizam
+com o tempo:</p>
+
+<p><strong>Coreia do Sul:</strong></p>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/54/?share_key=bCisprmF1mNHvf1qd4M41N" target="_blank" title="Korea, South_data" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/54.png?share_key=bCisprmF1mNHvf1qd4M41N" alt="Korea, South_data" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:54" sharekey-plotly="bCisprmF1mNHvf1qd4M41N" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p><strong>China</strong></p>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/71/?share_key=dRNFDbo1kzJ4InVxMuuheX" target="_blank" title="China_data" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/71.png?share_key=dRNFDbo1kzJ4InVxMuuheX" alt="China_data" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:71" sharekey-plotly="dRNFDbo1kzJ4InVxMuuheX" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p>Nossa crise ainda está só começando. Se o governo
+e as pessoas agirem de forma correta, o nosso número
+de casos vai se comportar como o da Coreia do Sul,
+crescendo um pouco inicialmente e depois se estabilizando.</p>
+
+<p><strong>Brasil:</strong></p>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/45/?share_key=WWkqIj8urQe7HcKuIS67ox" target="_blank" title="Brazil_data" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/45.png?share_key=WWkqIj8urQe7HcKuIS67ox" alt="Brazil_data" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:45" sharekey-plotly="WWkqIj8urQe7HcKuIS67ox" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/51/?share_key=Vmc28pkawHSP2SQ9b3Jt8D" target="_blank" title="conf_brazil" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/51.png?share_key=Vmc28pkawHSP2SQ9b3Jt8D" alt="conf_brazil" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:51" sharekey-plotly="Vmc28pkawHSP2SQ9b3Jt8D" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p>O que não pode acontecer é seguirmos o mesmo
+comportamento dos gráficos da Itália e dos EUA.
+Nos hospitais da Itália, os médicos já escolhem
+quem vai ser atendido. Eles estão dando preferência
+para os mais jovens e mandando os mais velhos para
+casa. Os gráficos da Itália e dos EUA estão abaixo.
+Repare no crescimento exponencial de casos confirmados
+dos EUA, não vai demorar muito até eles terem
+problemas sérios.</p>
+
+<p><strong>Itália:</strong></p>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/38/?share_key=xbLAMcNgkgpLgohrMcL2nV" target="_blank" title="Italy_data" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/38.png?share_key=xbLAMcNgkgpLgohrMcL2nV" alt="Italy_data" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:38" sharekey-plotly="xbLAMcNgkgpLgohrMcL2nV" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p><strong>USA:</strong></p>
+
+<div>
+    <a href="https://plot.ly/~rgivisiez/36/?share_key=dyBKDjhze8fksbq3JUahPm" target="_blank" title="US_data" style="display: block; text-align: center;"><img src="https://plot.ly/~rgivisiez/36.png?share_key=dyBKDjhze8fksbq3JUahPm" alt="US_data" style="max-width: 100%;width: 720px;" width="720" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rgivisiez:36" sharekey-plotly="dyBKDjhze8fksbq3JUahPm" src="https://plot.ly/embed.js" async=""></script>
+</div>
+
+<p>O estado de São Paulo se encontra em uma
+situação parecida com a de Wuhan no começo da
+crise. Se usarmos o que aprendemos com a China
+e com a Coreia do Sul, podemos controlar melhor
+a situação. Agora depende do governo tomar as
+decisões certas e as pessoas colaborarem ficando
+em casa, evitando aglomerações, trabalhando em
+regime de “home office”, se possível, e sempre lavando
+as mãos. Assim, podemos conseguir uma taxa
+de mortalidade baixa.</p>
+
+<p><strong>Comentários:</strong></p>
+<blockquote>
+  <ul>
+    <li>Água e sabão é tão eficiente quanto álcool
+ em gel.Então não precisa ficar correndo atrás disso o tempo todo.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Cientistas estão tentando encontrar uma vacina
+ para o coronavírus, mas isso pode demorar de 1 a 2 anos.</li>
+  </ul>
+</blockquote>
+:ET

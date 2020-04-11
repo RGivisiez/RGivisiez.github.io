@@ -56,7 +56,7 @@
 }
 
 .main_post_text:hover, .main_post_img:hover + .main_post_text {
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
   padding: 0.5em 1.2em 0em 1.2em;
   border-top: 0.5em solid  #E5A544;
   /*Using top and left border*/
@@ -71,6 +71,7 @@
 }
 
 .main_text_header h2 {
+  font-family: 'Karla', sans-serif;
   font-size: 1rem;
 }
 
@@ -87,6 +88,7 @@
   grid-area: "main_text_body";
   font-size: 1.1rem;
   padding: 1em 0em;
+  font-family: 'Karla', sans-serif;
 }
 
 .main_text_tags {
@@ -140,10 +142,9 @@
 }
 
 .latest_posts_txt:hover, .latest_posts_img:hover + .latest_posts_txt {
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
   padding: 0em 1.2em 1em 1.2em;
   border-top: 0.5em solid #E5A544;
-  /*border-bottom: 0.3em solid #E5A544;*/
 }
 
 .latest_posts_txt {
@@ -167,9 +168,11 @@
   grid-area: "latest_posts_body";
   font-size: 1.1rem;
   padding: 1em 0;
+  font-family: 'Karla', sans-serif;
 }
 
 .latest_posts_header h2 {
+  font-family: 'Karla', sans-serif;
   font-size: 1rem;
 }
 

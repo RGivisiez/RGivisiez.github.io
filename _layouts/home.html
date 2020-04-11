@@ -6,7 +6,7 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -21,7 +21,7 @@
       <section class="menu">
 
         <header class="menu_header">
-          <img src="/img/photo.jpg">
+          <img src="/assets/img/perfil/photo.jpg">
 
           <a href="/home">
             <h1>Ronaldo G.M. Rodrigues</h1>
@@ -56,7 +56,11 @@
               <div class="main_post_text">
 
                 <header class="main_text_header">
-                  <a href='{{ post.url | relative_url }}'><h1> {{ post.title }} </h1></a>
+                  
+                  <a href='{{ post.url | relative_url }}'>
+                    <h1> {{ post.title }} </h1>
+                  </a>
+
                   <h2> {{ post.date | date: "%d/%m/%Y" }} </h2>
                 </header>
 
