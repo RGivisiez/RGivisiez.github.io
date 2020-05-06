@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "COVID-19 e as conexões intrínsecas da sociedade"
-description: Um breve resumo sobre a nossa situação 
+title:  "AAAAAAA AAAAAAA AAAAAAA"
+description: "Um breve resumo sobre a nossa situação asadfafasd afdfsfsafdfs
+Um breve resumo sobre a nossa situação asadfafasd afdfsfsafdfs
+Um breve resumo sobre a"
 date:   2020-03-20
 categories: [Complex Systems, COVID-19]
 img_url: /assets/img/COVID-19/cov.jpg

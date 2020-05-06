@@ -6,6 +6,12 @@ main {
   margin: 0px 11.5%;
 }
 
+@media screen and (max-width: 1201px) {
+  main {
+    /*margin: 0px 1.2em;*/
+  }
+}
+
 /* Post menu */
 
 .menu {
@@ -94,10 +100,10 @@ main {
 .post {
   display: grid;
   grid-template-areas: "title_header" "content";
-  grid-template-rows: 19vh auto;
+  grid-template-rows: 190px auto;
   margin: 0 auto;
   margin-bottom: 100px;
-  max-width: 860px;
+  max-width: 1020px;
   border-top: 0.3em solid  #E5A544;
   border-bottom: 0.3em solid  #E5A544;
 }
@@ -108,18 +114,23 @@ main {
   padding-left: 1em;
 }
 
-.title_header h1 {
+.title_box h1 {
   font-family: 'Crimson Pro', serif;
   font-size: 3.5em;
   color: #DADADA;
 }
 
-.title_header h2 {
+.date_box {
+  padding: auto 0px;
+}
+
+.date_box h2 {
+  margin: auto 0px;
   font-size: 1.1em;
   color: #DADADA;
 }
 
-.title_header h2:after {
+.date_box h2:after {
   background-color: #E5A544;
   display: block;
   content: "";
@@ -131,7 +142,7 @@ main {
 .content {
   grid-area: "content";
   margin-top: 0;
-  padding: 3em 5em; 
+  padding: 3em 100px; 
   background: white;
   min-height: 300px;
   box-shadow: 8px 14px 30px 0px rgba(40, 49, 58, 0.23);
