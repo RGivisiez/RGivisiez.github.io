@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "AAAAAAA AAAAAAA AAAAAAA"
-description: "Um breve resumo sobre a nossa situação asadfafasd afdfsfsafdfs
-Um breve resumo sobre a nossa situação asadfafasd afdfsfsafdfs
-Um breve resumo sobre a"
+title:  "Erros e defeitos são essênciais para vivermos"
+description: "Chips de computador, seres humanos e até o universo, como
+pequenos erros e defeitos trazem vantagens."
 date:   2020-03-20
-categories: [Complex Systems, COVID-19]
-img_url: /assets/img/COVID-19/cov.jpg
+categories: [Comportamento, Erros]
+img_url: /assets/img/Erros e defeitos são essênciais/Erros e defeitos são essênciais.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Falhar não é uma opção, é uma necessidade.

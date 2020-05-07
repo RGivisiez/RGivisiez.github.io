@@ -27,10 +27,16 @@
             <h1>Ronaldo G.M. Rodrigues</h1>
           </a>
 
+
           {%- include social.html -%}
         </header>
 
-        <ul class="menu_list">
+
+          <a href="javascript:void(0);" class="toggle-nav" onclick="myFunction()">
+            &#9776;
+          </a>  
+
+        <ul id="ab" class="menu_list">
           <li><a class="ativo" href="/home">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/all_tags">Tags</a></li>
@@ -118,6 +124,17 @@
 <!--     <footer>
 
     </footer> -->
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("ab");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+    </script>
 
   </body>
 

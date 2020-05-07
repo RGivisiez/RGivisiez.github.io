@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "COVID-19"
-description: Um breve resumo sobre a nossa situação
+title:  "Erro Sistêmico"
+description: "De governos a empresas, como é possível que uma ideia ruim
+seja aceita por um grupo diverso de pessoas? Como esses erros são propagados?
+O que podemos fazer para evitar que isso aconteça?"
 date:   2020-03-21
-categories: [Complex, COVID-19]
-img_url: /assets/img/COVID-19/cov.jpg
+categories: [Business, Comportamento]
+img_url: /assets/img/Erro Sistêmico/Erro_Sistêmico.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

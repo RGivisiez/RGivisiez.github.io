@@ -2,9 +2,9 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-04-04 22:09:02 -0300
-categories: jekyll update
-img_url: /assets/img/COVID-19/cov.jpg
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. 
+categories: jekyll html
+img_url: /assets/img/jekyll/jekyll.jpg
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and   re-build the site to see your changes. 
 ---
 
 **Comentários:**

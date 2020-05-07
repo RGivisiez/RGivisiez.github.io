@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "COVID-19"
-description: Um breve resumo sobre a nossa situação
-date:   2020-03-19
+title:  "COVID-19 e as conexões humanas"
+description: "Como o vírus usa a nossa sociedade altamente conectada para
+se espalhar e o que podemos fazer para evitar a sua disseminação."
+date: 2020-04-06
 img_url: /assets/img/COVID-19/cov.jpg
-categories: [Complex Systems, COVID-19]
+categories: [Complex-Systems, COVID-19]
 ---
 
   O coronavírus (COVID-19) foi descoberto em dezembro
