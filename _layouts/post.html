@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/code_highlighting.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/post.css">
     <link href="https://fonts.googleapis.com/
     css2?family=Crimson+Pro&family=Karla&display=swap" rel="stylesheet">
@@ -17,75 +18,17 @@
   </head>
 
   <body>
-    
+
     <nav>      
-        <section class="menu">
-
-          <header class="menu_header">
-              <img src="/assets/img/perfil/photo.jpg">
-          </header>
-
-          <a href="javascript:void(0);" class="toggle-nav" onclick="myFunction()">
-            &#9776;
-          </a> 
-
-          <ul id="ab" class="menu_list">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/all_tags">Tags</a></li>
-            <li><a href="/contact">Contato</a></li>
-            {%- include social.html -%}
-          </ul>
-        </section>
+      {%- include menu.html -%}
     </nav>
 
     <main>
-      <div class='inner'>
-        
-      <section class='article'>
-
-        <div class="post_img" style="
-          background-image: url('{{ page.img_url }}')">
-        </div>
-
-        <div class="post">
-
-          <div class="title_header">
-
-            <div class="title_box">
-              <h1>
-                {{ page.title }}
-              </h1> 
-            </div>
-
-            <div class="date_box">
-              <h2>
-                {{ page.date | date: "%d/%m/%Y" }}
-              </h2>
-            </div>
-          </div>
-
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-
-      </section> 
+      <div class='inner_box'>
+        <section class='article'>
+          {%- include article.html -%}
+        </section> 
       </div>
-
     </main>
-
-    <script>
-    function myFunction() {
-      var x = document.getElementById("ab");
-      if (x.style.display === "flex") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "flex";
-      }
-    }
-    </script>
-
   </body>
-
 </html>
