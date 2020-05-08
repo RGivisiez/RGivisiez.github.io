@@ -57,7 +57,7 @@ main {
 }
 
 .content p {
-  font-family: var(--second_font);
+  /*font-family: var(--second_font);*/
   text-align: justify;
   line-height: 1.6em;
   text-rendering: optimizeLegibility;
