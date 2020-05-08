@@ -23,7 +23,7 @@
   background-size: cover;
   border-radius: 5px 5px 0px 0px;
   background-color: grey;
-  min-height: 100px;
+  min-height: 200px;
 }
 
 .card_body {
@@ -149,7 +149,7 @@
 }
 
 @media screen and (min-width: 1070px) {
-  .cards_area{
+  .cards_area {
     margin: 0 auto;
     max-width: 1040px;
   }
