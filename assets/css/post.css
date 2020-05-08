@@ -26,26 +26,30 @@ main {
 
 .post {
   position: relative;
-  display: inline;
+  /*display: inline;*/ /*acho que não faz sentido isso aqui.*/ 
   margin: 0 auto;
-  display: grid;
+  /*display: grid;*/ /*acho que não faz sentido isso aqui.*/ 
   margin-bottom: 100px;
 }
 
 .title_header {
+  display: flex;
+  flex-direction: column;
+  flex:1;
   background: var(--bkg_color);
   padding: 1.3em 4vw 1.3em;
   border-top: 0.1em solid  var(--highlight_color);
 }
 
 .title_box h1 {
+  margin: auto 0;
   font-family: var(--second_font);
   font-size: 2em;
   color: var(--letter_color);
 }
 
 .date_box h2 {
-  margin-top: 1.3em;
+  padding-top: 1.2em;
   font-size: 1em;
   color: var(--letter_color);
 }
