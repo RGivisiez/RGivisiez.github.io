@@ -113,7 +113,7 @@ a h1 {
   color: var(--highlight_color);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 650px) {
 
   .menu_header .toggle-nav {
     font-size: 40px;
