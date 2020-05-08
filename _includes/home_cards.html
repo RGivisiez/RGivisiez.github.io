@@ -1,0 +1,27 @@
+<div class="card_box">     
+   
+  <a href='{{ post.url | relative_url }}'>
+    <div class="card_img" style="
+      background-image: url('{{ post.img_url }}')">
+    </div>
+  </a>
+
+  <div class="card_body">
+
+    <header class="card_header">
+      <a href='{{ post.url }}'><h1> {{ post.title }} </h1></a>
+      <h2> {{ post.date | date: "%d/%m/%Y" }} </h2> 
+    </header>
+
+    <p class="card_description">
+      {{ post.description }}
+   </p>
+
+  <div class="card_tags">
+    {% for tag in post.categories %}
+      <p> #{{ tag }} </p>
+    {% endfor %}
+  </div>
+
+  </div>
+</div>
