@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Erros e defeitos são essênciais para vivermos"
+description: "Chips de computador, seres humanos e até o universo, como
+pequenos erros e defeitos trazem vantagens."
+date:   2020-03-20
+categories: [Comportamento, Erros]
+img_url: /assets/img/Erros e defeitos são essênciais/Erros e defeitos são essênciais.jpg
+---
+Falhar não é uma opção, é uma necessidade.
