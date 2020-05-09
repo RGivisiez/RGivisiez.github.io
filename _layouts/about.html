@@ -6,114 +6,37 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/menu.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/posts.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/menu_barra.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/menu_lateral.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/home_cards.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Karla&display=swap" rel="stylesheet">
 
   </head>
+
+  <style>
+    :root {
+      --position: none;
+    }
+  </style>
+
   <body>
     
     <nav>      
-      <section class="menu">
-
-        <header class="menu_header">
-          <img src="/img/photo.jpg">
-
-          <a href="/home">
-            <h1>Ronaldo G.M. Rodrigues</h1>
-          </a>
-
-          {%- include social.html -%}
-        </header>
-
-        <ul class="menu_list">
-          <li><a href="/home">Home</a></li>
-          <li><a class="ativo" href="/about">About</a></li>
-          <li><a href="/all_tags">Tags</a></li>
-          <li><a href="/contact">Contato</a></li>
-        </ul>
-      </section>
+      {%- include menu.html -%}
     </nav>
 
     <main>
 
-      <section class="posts_area">
+      <div class="cards_area">
+        AAAAAAAAAAAA
+      </div>
 
-        {% for post in site.posts limit:1 %}
-
-          {% if forloop.index == 1 %}
-
-            <div class="main_post">
-
-              <a href='{{ post.url | relative_url }}' class="main_post_img" style="
-                background-image: url('{{ post.img_url }}')">
-              </a>
-
-              <div class="main_post_text">
-
-                <header class="main_text_header">
-                  <a href='{{ post.url | relative_url }}'><h1> {{ post.title }} </h1></a>
-                  <h2> {{ post.date | date: "%d/%m/%Y" }} </h2>
-                </header>
-
-                <p class="main_text_body">
-                 {{ post.description }}
-               </p>
-
-                <div class="main_text_tags">
-                  {% for tag in post.categories %}
-                    <p> #{{ tag }} </p>
-                  {% endfor %}
-                </div>
-
-              </div>
-            </div>
-          {% endif %} 
-        {% endfor %}
-
-        <div class="latest_posts">
-          {% for post in site.posts %}
-
-            {% if forloop.index != 1 %}
-
-              <div class="latest_posts_box">     
-                     
-                <a href='{{ post.url | relative_url }}' class="latest_posts_img" style="
-                  background-image: url('{{ post.img_url }}')">
-                </a>
-
-                <div class="latest_posts_txt">
-
-                  <header class="latest_posts_header">
-                    <a href='{{ post.url }}'><h1> {{ post.title }} </h1></a>
-                    <h2> {{ post.date | date: "%d/%m/%Y" }} </h2> 
-                  </header>
-
-                  <p class="latest_posts_body">
-                    {{ post.description }}
-                 </p>
-
-                <div class="main_text_tags">
-                  {% for tag in post.categories %}
-                    <p> #{{ tag }} </p>
-                  {% endfor %}
-                </div>
-
-                </div>
-              </div>
-            {% endif %} 
-          {% endfor %}
-        </div>
-      </section>  
     </main>
-
-<!--     <footer>
-
-    </footer> -->
 
   </body>
 
