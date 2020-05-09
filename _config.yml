@@ -18,30 +18,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-masthead_title: "Teste"
-logo: ""
-teaser: ""
-title: ""
-timezone: America/Sao_Paulo
-locale: "pt_BR"
+
+title: "RG"
+name: "Ronaldo Givisiez"
+tagline: "Site pra postar coisas."
+description: "Site pessoal"
+url: "rgivisiez.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter:
+  username: ronaldogivisiez
+  card: summary
+
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+
+logo: "/assets/img/icon/apple-touch-icon-57x57.png"
+
+lang: "pt_BR"
+
+
+
+
 permalink: /post/:title/
 email: ronaldogivisiez@hotmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-# Write an awesome description for your new site here. You can edit this
-# line in _config.yml. It will appear in your document head meta (for
-# Google search results) and in your feed.xml site description.
+
+timezone: America/Sao_Paulo
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rgivisiez.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ronaldogivisiez
-github_username:  RGivisiez
+# twitter_username: ronaldogivisiez
+# github_username:  RGivisiez
 
 # Build settings
 paginate: 1
 theme: minima
 
-sass:
-    style: compressed
+# sass:
+    # style: compressed
 
 # generate social links in footer
 social_links:
