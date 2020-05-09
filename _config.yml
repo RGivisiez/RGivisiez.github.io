@@ -30,16 +30,17 @@ twitter:
   card: summary
 
 facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
+  app_id: ""
+  publisher: ""
+  admins: ""
 
 logo: "/assets/img/icon/apple-touch-icon-57x57.png"
 
 lang: "pt_BR"
 
+author: "Ronaldo"
 
-
+image: "/assets/img/jekyll/jekyll.jpg"
 
 permalink: /post/:title/
 email: ronaldogivisiez@hotmail.com
