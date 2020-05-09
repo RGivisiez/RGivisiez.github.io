@@ -63,11 +63,6 @@ a h1 {
   min-height: 100vh;
 }
 
-.menu_social {
-  text-align: center;
-  padding-top: 1em;
-}
-
 .menu_list li {
   text-align: center;
   text-transform: uppercase;
@@ -95,7 +90,8 @@ a h1 {
 }
 
 .menu_social {
-  padding-left: 1em;
+  text-align: center;
+  padding-top: 1em;
 }
 
 .menu_social a {
@@ -111,17 +107,4 @@ a h1 {
 
 .social svg:hover {
   color: var(--highlight_color);
-}
-
-@media screen and (min-width: 650px) {
-
-  .menu_header .toggle-nav {
-    font-size: 40px;
-  }
-  
-  .menu_header img {
-    width: 80px;
-    height: 80px;
-  }
-
 }
