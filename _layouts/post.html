@@ -3,7 +3,9 @@
 <html>
 
   <head>
-    
+
+    {%- include site_icons.html -%}
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,15 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Karla&display=swap
     " rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165922976-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-165922976-1');
-    </script>
+    {%- include google_analytics.html -%}
     
 
     {% seo %}
@@ -46,9 +40,10 @@
 
     <main>
       <div class='inner_box'>
-      {%- include share_box.html -%}
+        {%- include share_box.html -%}  
         <section class='article'>
           {%- include article.html -%}
+          {%- include share_box.html -%} 
         </section> 
       </div>
     </main>
