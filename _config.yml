@@ -27,7 +27,7 @@ url: "https://rgivisiez.github.io" # the base hostname & protocol for your site,
 
 twitter:
   username: ronaldogivisiez
-  card: summary
+  card: summary_large_image
 
 facebook:
   app_id: ""
@@ -40,7 +40,8 @@ lang: "pt_BR"
 
 author: "Ronaldo"
 
-image: "/assets/img/icon/apple-touch-icon-57x57.png"
+image:
+  type: "img/png"
 
 permalink: /post/:title/
 email: ronaldogivisiez@hotmail.com
