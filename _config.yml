@@ -40,9 +40,6 @@ lang: "pt_BR"
 
 author: "Ronaldo"
 
-image:
-  type: "img/png"
-
 permalink: /post/:title/
 email: ronaldogivisiez@hotmail.com
 
