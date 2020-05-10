@@ -40,7 +40,7 @@ lang: "pt_BR"
 
 author: "Ronaldo"
 
-image: "/assets/img/jekyll/jekyll.jpg"
+image: "/assets/img/icon/apple-touch-icon-57x57.png"
 
 permalink: /post/:title/
 email: ronaldogivisiez@hotmail.com
