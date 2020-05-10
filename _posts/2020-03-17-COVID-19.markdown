@@ -5,7 +5,8 @@ description: "Como o vírus usa a nossa sociedade altamente conectada para
 se espalhar e o que podemos fazer para evitar a sua disseminação."
 date: 2020-04-06
 image: /assets/img/COVID-19/cov.jpg
-categories: [Complex-Systems, COVID-19]
+categories: "Divulgação"
+tags: [Complex-Systems, COVID-19]
 ---
 
   O coronavírus (COVID-19) foi descoberto em dezembro
