@@ -23,7 +23,7 @@ title: "RG"
 name: "Ronaldo Givisiez"
 tagline: "Site pra postar coisas."
 description: "Site pessoal"
-url: "rgivisiez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rgivisiez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter:
   username: ronaldogivisiez
