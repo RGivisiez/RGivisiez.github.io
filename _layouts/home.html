@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/menu_barra.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/menu_lateral.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/home_cards.css"> 
+    <link rel="stylesheet" type="text/css" href="/assets/css/pagination.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Karla&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="wYQAmwjGoF1m-VjxiMX0hlymXQ2euv5C3uzk1Z-UKHs" />
@@ -34,7 +35,7 @@
   <body>
     
     <nav>      
-      {%- include menu.html -%}
+      {%- include menu.html home="ativo" -%}
     </nav>
     <main>
 
@@ -45,10 +46,13 @@
         </div>
 
         <div class="latest_cards">
-          {% for post in site.posts %}
+          {% for post in paginator.posts %}
             {%- include home_cards.html -%}
           {% endfor %}
         </div>
+
+          {%- include pagination.html -%}
+
       </section>  
 
     </main>

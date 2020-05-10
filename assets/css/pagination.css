@@ -1,0 +1,21 @@
+.pagination a, .pagination span {
+    padding: 7px 1.2em;
+    margin-right: 0.05em;
+    background-color: var(--bkg_color);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--letter_color);
+    border-radius: 5px 5px;
+  }
+
+.pagination a:hover {
+    color: var(--highlight_color);
+ }
+
+.pagination {
+    text-align: center;
+ }
+
+.pagination .link_ativo {
+    color: var(--highlight_color);
+}

@@ -50,7 +50,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # github_username:  RGivisiez
 
 # Build settings
-paginate: 1
+paginate: 3
+paginate_path: "/page:num/"
+
 theme: minima
 
 # sass:
