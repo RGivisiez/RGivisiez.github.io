@@ -4,16 +4,7 @@
 
   <head>
     
-    <link rel="shortcut icon" href="/assets/img/icon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/assets/img/icon/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icon/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icon/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icon/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icon/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icon/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icon/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon/apple-touch-icon-180x180.png" />
+    {%- include site_icons.html -%}
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -25,23 +16,17 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/menu_barra.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/menu_lateral.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/home_cards.css"> 
+    <link rel="stylesheet" type="text/css" href="/assets/css/pagination.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Karla&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="wYQAmwjGoF1m-VjxiMX0hlymXQ2euv5C3uzk1Z-UKHs" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165922976-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-165922976-1');
-    </script>
+    {%- include google_analytics.html -%}
 
     {% seo %}
 
   </head>
+
   <style>
     :root {
       --position: none;
@@ -51,18 +36,25 @@
   <body>
     
     <nav>      
-      {%- include menu.html -%}
+      {%- include menu.html home="ativo" -%}
     </nav>
     <main>
 
       <section class="cards_area">
-    
-        <script async src="https://cse.google.com/cse.js?cx=000933113177833193605:39znyjpjhyz"></script>
-        <div class="gcse-search"></div>
+        <div class="search">
+          {%- include site_search.html -%}
+        </div>
+
         <div class="latest_cards">
-          {% for post in site.posts %}
+
+          <!-- post list -->
+          {% for post in paginator.posts %}
             {%- include home_cards.html -%}
           {% endfor %}
+
+          <!-- pagination -->
+          {%- include pagination.html -%}
+
         </div>
       </section>  
 

@@ -1,5 +1,9 @@
 .cards_area {
-  padding: 1.8em 4% 1.2em 4%;
+  padding: 0em 4% 1.2em 4%;
+}
+
+.search {
+  padding: 0.5em 0;
 }
 
 .card_box {
@@ -88,6 +92,10 @@
 } 
 
 @media screen and (min-width: 700px) {
+
+  .search {
+    padding-left: 60%;  
+  }
 
  .latest_cards {
    display: flex;

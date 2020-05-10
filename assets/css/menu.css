@@ -52,7 +52,11 @@ a h1 {
   transition:color linear 0.15s;
 }
 
-.menu_header .toggle-nav:hover, .menu_header .toggle-nav.active {
+.menu_link.ativo {
+  color: var(--highlight_color);
+}
+
+.menu_header .toggle-nav:hover {
   text-decoration:none;
   color: var(--highlight_color);
 }

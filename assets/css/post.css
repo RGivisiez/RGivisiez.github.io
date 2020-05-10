@@ -1,7 +1,31 @@
-/* Configurações Gerais*/
+/* Share Box */
 
-main {
-  margin-top: 20px;
+.share_box {
+  padding: 1.6em 1.2em;
+  text-align: center;
+}
+
+.share_box h5 {
+  display: inline;
+  padding-right: 0.5em;
+}
+
+.share_box a {
+  text-decoration: none;
+  color:var(--letter_color);
+  background: var(--bkg_color);
+  border-radius: 5px 5px;
+  padding: 0.1em 0.3em;
+  margin: 0 0.5em;
+}
+
+.share_box a:hover {
+  text-decoration: none;
+  color: var(--highlight_color);
+}
+
+.share_footer {
+  padding: 1em 0;
 }
 
 /* Post Content */
@@ -12,10 +36,6 @@ main {
   background-position: center top;
   border-radius: 5px 5px 0 0;
   height: 350px;
-}
-
-.post {
-  margin-bottom: 100px;
 }
 
 .title_header {
