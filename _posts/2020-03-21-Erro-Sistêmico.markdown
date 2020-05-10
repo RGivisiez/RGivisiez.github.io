@@ -6,5 +6,5 @@ seja aceita por um grupo diverso de pessoas? Como esses erros são propagados?
 O que podemos fazer para evitar que isso aconteça?"
 date:   2020-03-21
 categories: [Business, Comportamento]
-img_url: /assets/img/Erro Sistêmico/Erro_Sistêmico.jpg
+image: /assets/img/Erro Sistêmico/Erro_Sistêmico.jpg
 ---
