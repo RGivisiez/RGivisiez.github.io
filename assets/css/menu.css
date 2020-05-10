@@ -67,6 +67,10 @@ a h1 {
   min-height: 100vh;
 }
 
+.menu_link.ativo {
+  color: var(--highlight_color);
+}
+
 .menu_list li {
   text-align: center;
   text-transform: uppercase;

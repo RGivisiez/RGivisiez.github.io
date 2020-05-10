@@ -26,7 +26,6 @@
     {% seo %}
 
   </head>
-
   <style>
     :root {
       --position: none;
@@ -36,38 +35,13 @@
   <body>
     
     <nav>      
-      {%- include menu.html home="ativo" -%}
+      {%- include menu.html all_tags="ativo" -%}
     </nav>
     <main>
 
-      <section class="cards_area">
-<<<<<<< HEAD
-        <div class="search">
-=======
-        
-        <div class="search_box">
->>>>>>> about_page
-          {%- include site_search.html -%}
-        </div>
-
-        <div class="latest_cards">
-<<<<<<< HEAD
-
-          <!-- post list -->
-=======
->>>>>>> about_page
-          {% for post in paginator.posts %}
-            {%- include home_cards.html -%}
-          {% endfor %}
-
-          <!-- pagination -->
-          {%- include pagination.html -%}
-
-        </div>
-
-          {%- include pagination.html -%}
-
-      </section>  
+      <div class="cards_area">
+          Página em construção <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+      </div>
 
     </main>
 

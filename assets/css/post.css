@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Share Box */
 
 .share_box {
@@ -26,6 +27,36 @@
 
 .share_footer {
   padding: 1em 0;
+=======
+.article {
+  margin-bottom: 2em;
+}
+
+/* Share Box */
+
+.share_box {
+  padding: 2.5em 1em;
+  text-align: center;
+}
+
+.share_box h5 {
+  display: inline;
+  padding: 0.2em 0em;
+  margin-right: 1em;
+}
+
+.share_box a {
+  background: var(--bkg_color);
+  border-radius: 5px 5px;
+  text-decoration: none;
+  color: var(--letter_color);
+  padding: 0.2em 0.5em;
+  margin-right: 1em;
+}
+
+.share_box a:hover {
+  color: var(--highlight_color);
+>>>>>>> about_page
 }
 
 /* Post Content */
@@ -38,6 +69,13 @@
   height: 350px;
 }
 
+<<<<<<< HEAD
+=======
+.post {
+  margin-bottom: 1.5em;
+}
+
+>>>>>>> about_page
 .title_header {
   display: flex;  
   flex-direction: column;
