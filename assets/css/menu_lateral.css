@@ -1,0 +1,82 @@
+@media screen and (min-width: 1070px) {
+
+  .menu {
+    display: inline;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: var(--menu_width);
+    padding: 3em var(--menu_padding);
+  }
+
+  .menu_header .site_id {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu_header .site_id img {
+    width: 100px;
+    height: 100px;
+    margin: auto auto;
+  }
+
+  .menu_header .site_id .name_title {
+    padding-top: 1.6em;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .menu_header .site_id .name_title h1 {
+    display: block;
+    font-size: 1.45em;
+  }
+
+  .menu_header .site_id .name_title h2 {
+    display: block;
+    font-size: 0.85em;
+  }
+
+  .menu_header .toggle-nav {
+    display: none;
+  }
+  
+  .menu_body {
+    display: block;
+    padding-top: 3em;
+    min-height: 100vh;
+  }
+
+  .menu_list {
+    display: block;
+  }
+
+  .menu_list li {
+    padding: auto 1em;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    border-bottom: 1px solid var(--letter_color);
+    border-right: 0px solid var(--letter_color);
+  } 
+
+  .menu_list li:last-child {
+    border-bottom: 1px solid var(--letter_color);
+    border-right: 0px solid var(--letter_color);
+  }
+
+  .menu_list li:first-child {
+    border-top: 1px solid var(--letter_color);
+  }
+
+  .menu_list li {
+    padding: 0.8em 1em;
+  } 
+
+  .menu_social {
+    padding-top: 1.2em;
+  }
+
+  .social svg {
+    height: 40px;
+  }
+
+}

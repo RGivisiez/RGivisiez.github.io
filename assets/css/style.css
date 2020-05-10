@@ -1,0 +1,22 @@
+:root {
+  --photo_size: 60px;
+  --bkg_color: #292929;
+  --letter_color: #DADADA;
+  --highlight_color: #E5A544;
+  --menu_width: 240px;
+  --menu_padding: 30px;
+  --second_font: 'Crimson Pro', serif;
+}
+
+html {
+  font-size: 16px;
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  font-family: 'Karla', sans-serif;
+}
+
+@media screen and (min-width: 750px) {
+
+  html {
+    font-size: 20px;
+  }
+}

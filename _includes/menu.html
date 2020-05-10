@@ -1,0 +1,49 @@
+<section class="menu">
+
+  <header class="menu_header">
+
+    <div class="site_id">
+      <img src="/assets/img/perfil/photo.jpg">
+
+      <div class="name_title">
+        <h1> Ronaldo <h1>
+        <h2>M.D. Physics</h2 >
+      </div>
+    </div>
+
+    <a href="javascript:void(0);" class="toggle-nav" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+  </header>
+
+  <div id="button" class="menu_body">
+
+    <ul  class="menu_list">
+      <li><a class="menu_link {{ include.home }}" href="/#">Home</a></li>
+      <li><a class="menu_link {{ include.about }}" href="/about">About</a></li>
+      <li><a class="menu_link {{ include.all_tags }}" href="/all_tags">Tags</a></li>
+      <li><a class="menu_link {{ include.contact }}" href="/contact">Contato</a></li>
+    </ul>
+
+    <div class="menu_social">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+
+</section>
+
+<!-- Script para abrir e fechar o menu -->
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("button");
+    if (x.style.display === "inline") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "inline";
+    }
+  }
+</script>
