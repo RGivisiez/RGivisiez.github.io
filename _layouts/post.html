@@ -40,7 +40,13 @@
 
     <main>
       <div class='inner_box'>
-        {%- include share_box.html -%}  
+
+        {%- include share_box.html -%}
+
+        <div class="image_credit">
+          <h5>{{ page.image_credit }}</h5>
+        </div>
+
         <section class='article'>
           {%- include article.html -%}
           {%- include share_box.html -%} 

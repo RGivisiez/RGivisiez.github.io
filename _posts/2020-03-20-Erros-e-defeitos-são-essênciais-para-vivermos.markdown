@@ -7,5 +7,6 @@ date:   2020-03-20
 image: /assets/img/Erros e defeitos são essênciais/Erros e defeitos são essênciais.jpg
 categories: 
 tags: [Comportamento, Erros]
+image_credit: "Photo by Alexandre Debiève on Unsplash"
 ---
 Falhar não é uma opção, é uma necessidade.
