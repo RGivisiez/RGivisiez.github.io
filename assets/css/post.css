@@ -28,6 +28,26 @@
   color: var(--highlight_color);
 }
 
+.whatsapp_mobile {
+  display: inline;
+}
+
+.whatsapp_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+
+  .whatsapp_mobile {
+    display: none;
+  }
+
+  .whatsapp_desktop {
+    display: inline;
+  }
+
+}
+
 /* Post Content */
 
 .post_img {
