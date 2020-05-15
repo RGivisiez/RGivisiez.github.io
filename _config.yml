@@ -19,10 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: "RG"
+title: "Ronaldo G.M.R."
 name: "Ronaldo Givisiez"
-tagline: "Site pra postar coisas."
-description: "Site pessoal"
+tagline: "Um pequeno pedaço da minha mente que insiste em fazer links
+          entre física, programação, comportamento e qualquer outra que
+          esteja lendo."
+description: "Artigos misturando física, programação, dados e qualquer outra
+              coisa que eu esteja lendo."
 url: "https://rgivisiez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter:

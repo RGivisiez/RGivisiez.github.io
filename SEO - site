@@ -1,31 +1,5 @@
 https://blog.webjeda.com/optimize-jekyll-seo/
-https://github.com/jekyll/jekyll-seo-tag
-https://github.com/jekyll/jekyll-sitemap
 https://seositecheckup.com/seo-audit/rgivisiez.github.io
 https://dmitryrogozhny.com/blog/adding-seo-to-jekyll-site
 https://blog.mastykarz.nl/improve-jekyll-seo/
 https://www.siteleaf.com/blog/seo-with-jekyll-siteleaf/
-
-
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
-<meta property="og:site_name" content="WebJeda Blog">
-<meta property="article:publisher" content="http://www.facebook.com/webjeda" />
-<meta property="article:author" content="https://www.facebook.com/sharu725" />
-<meta property="article:published_time" content="{{ page.date }}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:site" content="@webjeda" />
-<meta name="twitter:creator" content="@sharathdt">
-<meta name="twitter:card" content="summary">
-
-<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone-60x60.png">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-ipad-76x76.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-iphone-retina-120x120.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">

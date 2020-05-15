@@ -1,3 +1,6 @@
+
+/* This menu is shown for Desktop only */
+
 @media screen and (min-width: 1070px) {
 
   .menu {
@@ -12,6 +15,7 @@
   .menu_header .site_id {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .menu_header .site_id img {
@@ -20,10 +24,15 @@
     margin: auto auto;
   }
 
-  .menu_header .site_id .name_title {
+  .name_title {
     padding-top: 1.6em;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .name_title a {
+    text-decoration: none;
+    color: var(--letter_color);
   }
 
   .menu_header .site_id .name_title h1 {

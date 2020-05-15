@@ -33,6 +33,12 @@ a h1 {
   color: var(--letter_color);
 }
 
+
+.name_title a {
+  text-decoration: none;
+  color: var(--letter_color);
+}
+
 .menu_header .site_id .name_title h1 {
   margin: 0 0;
   font-size: 1.25em;
