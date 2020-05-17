@@ -8,4 +8,5 @@ date:   2020-03-21
 image: /assets/img/Erro Sistêmico/Erro_Sistêmico.jpg
 categories: 
 tags: [Business, Comportamento]
+image_credit: "Photo by Free To Use Sounds on Unsplash"
 ---

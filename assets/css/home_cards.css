@@ -1,9 +1,10 @@
-.search_box {
-  padding: 1.1em 0em;
+.cards_area {
+  margin-top: 6em;
+  padding: 0 4% 1.2em 4%;
 }
 
-.cards_area {
-  padding: 0 4% 1.2em 4%;
+.search_box {
+  padding: 1.1em 0em;
 }
 
 .card_box {
@@ -159,6 +160,7 @@
 @media screen and (min-width: 1070px) {
 
   .cards_area {
+    margin-top: 0em;
     margin-left: calc(var(--menu_width) + 2 * var(--menu_padding));
     padding: 0 auto;
     max-width: 1040px;

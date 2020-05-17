@@ -3,16 +3,23 @@
   <header class="menu_header">
 
     <div class="site_id">
-      <img src="/assets/img/perfil/photo.jpg">
+      <a href="/">
+        <img src="/assets/img/perfil/photo.jpg">
+      </a>
 
       <div class="name_title">
-        <h1> Ronaldo <h1>
-        <h2>M.D. Physics</h2 >
+        <a href="/">
+          <h1> Ronaldo <h1>
+          <h2>M.D. Physics</h2 >
+        </a>
       </div>
     </div>
 
     <a href="javascript:void(0);" class="toggle-nav" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
+      <!-- <i class="fa fa-bars"></i> -->
+
+      <svg viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+
     </a>
 
   </header>
@@ -20,7 +27,7 @@
   <div id="button" class="menu_body">
 
     <ul  class="menu_list">
-      <li><a class="menu_link {{ include.home }}" href="/#">Home</a></li>
+      <li><a class="menu_link {{ include.home }}" href="/">Home</a></li>
       <li><a class="menu_link {{ include.about }}" href="/about">About</a></li>
       <li><a class="menu_link {{ include.all_tags }}" href="/all_tags">Tags</a></li>
       <li><a class="menu_link {{ include.contact }}" href="/contact">Contato</a></li>
