@@ -2,13 +2,15 @@ a h1 {
   margin: 0 0;
 }
 
-/* Post menu */
-
 .menu {
   display: grid;
   grid-template-rows: auto;
   background: var(--bkg_color);
+  position: fixed;
   padding: 0.83333em 3vw;
+  width: calc(100% - 6vw);
+  top: 0;
+  left: 0;
 }
 
 .menu_header {
@@ -54,8 +56,13 @@ a h1 {
   margin: auto 0;
   text-decoration: none;
   color: var(--letter_color);
-  font-size: calc(var(--photo_size) / 2);
   transition:color linear 0.15s;
+}
+
+.menu_header .toggle-nav svg {
+  fill: currentColor;
+  height: calc(var(--photo_size) / 2);
+  width: calc(var(--photo_size) / 2);
 }
 
 .menu_header .toggle-nav:hover, .menu_header .toggle-nav.active {
