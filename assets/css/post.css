@@ -28,7 +28,7 @@ main {
   margin-right: 1em;
 }
 
-.share_box a:hover {
+.share_box svg:hover {
   color: var(--highlight_color);
 }
 
