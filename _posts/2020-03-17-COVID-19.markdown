@@ -8,6 +8,7 @@ image: /assets/img/COVID-19/cov.jpg
 categories: "Divulgação"
 tags: [Complex-Systems, COVID-19]
 image_credit: "Photo by Alina Grubnyak on Unsplash"
+image_alt: "Fios emaranhados"
 ---
 
   O coronavírus (COVID-19) foi descoberto em dezembro

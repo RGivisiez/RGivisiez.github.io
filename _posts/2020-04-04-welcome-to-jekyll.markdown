@@ -7,6 +7,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 tags: [jekyll, html]
 categories: ""
 image_credit: ""
+image_alt: "Tela de computador com código"
 ---
 
 **Comentários:**
