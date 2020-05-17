@@ -81,7 +81,12 @@ países com maior número de casos confirmados naquele
 dia. Repare em como os casos na Itália e nos EUA
 crescem rápido.
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/47.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/47.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/47/?share_key=9UlyyAApMHJYp6hBD9gL6v" target="_blank" title="COVID-19_spread" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/47.png?share_key=9UlyyAApMHJYp6hBD9gL6v" alt="COVID-19_spread" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:47" sharekey-plotly="9UlyyAApMHJYp6hBD9gL6v" src="https://plotly.com/embed.js" async></script>
+</div>
 
   Existem muitos estudos sobre redes complexas
 e cheias de conexões como a dos aeroportos e a
@@ -116,7 +121,7 @@ do vírus, é importante diminuir o contato com as pessoas
 e principalmente não ir trabalhar doente.
 
 <p style="text-align:center">
-<img src="/assets/img/COVID-19/supermercado.png" width="400" class="center" />
+<img src="/assets/img/COVID-19/supermercado.png" width="100%" class="center" />
 </p>
 
   Até agora, o que podemos dizer sobre a taxa de
@@ -130,7 +135,13 @@ tem 30 mil casos confirmados e uma taxa de 8%. As
 escolhas que fizermos agora vão influenciar os
 resultados de amanhã.
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/40.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/40.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/40/?share_key=YAII62Q2SjvilVlEiZdvNC" target="_blank" title="death_ratio" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/40.png?share_key=YAII62Q2SjvilVlEiZdvNC" alt="death_ratio" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:40" sharekey-plotly="YAII62Q2SjvilVlEiZdvNC" src="https://plotly.com/embed.js" async></script>
+</div>
+
 
   Todos os países estão tendo dificuldades em
 controlar a propagação do vírus. O único país
@@ -167,11 +178,21 @@ com o tempo:
 
 **Coreia do Sul:**
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/54.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/54.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/54/?share_key=bCisprmF1mNHvf1qd4M41N" target="_blank" title="Korea, South_data" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/54.png?share_key=bCisprmF1mNHvf1qd4M41N" alt="Korea, South_data" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:54" sharekey-plotly="bCisprmF1mNHvf1qd4M41N" src="https://plotly.com/embed.js" async></script>
+</div>
 
 **China**
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/71.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/71.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/71/?share_key=dRNFDbo1kzJ4InVxMuuheX" target="_blank" title="China_data" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/71.png?share_key=dRNFDbo1kzJ4InVxMuuheX" alt="China_data" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:71" sharekey-plotly="dRNFDbo1kzJ4InVxMuuheX" src="https://plotly.com/embed.js" async></script>
+</div>
 
   Nossa crise ainda está só começando. Se o governo
 e as pessoas agirem de forma correta, o nosso número
@@ -180,9 +201,21 @@ crescendo um pouco inicialmente e depois se estabilizando.
 
 **Brasil:**
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/45.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/45.embed"></iframe>
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/51.embed"></iframe>
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/45/?share_key=WWkqIj8urQe7HcKuIS67ox" target="_blank" title="Brazil_data" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/45.png?share_key=WWkqIj8urQe7HcKuIS67ox" alt="Brazil_data" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:45" sharekey-plotly="WWkqIj8urQe7HcKuIS67ox" src="https://plotly.com/embed.js" async></script>
+</div>
+
+
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/51.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/51/?share_key=Vmc28pkawHSP2SQ9b3Jt8D" target="_blank" title="conf_brazil" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/51.png?share_key=Vmc28pkawHSP2SQ9b3Jt8D" alt="conf_brazil" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:51" sharekey-plotly="Vmc28pkawHSP2SQ9b3Jt8D" src="https://plotly.com/embed.js" async></script>
+</div>
+
 
   O que não pode acontecer é seguirmos o mesmo
 comportamento dos gráficos da Itália e dos EUA.
@@ -196,11 +229,23 @@ problemas sérios.
 
 **Itália:**
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/38.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/38.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/38/?share_key=xbLAMcNgkgpLgohrMcL2nV" target="_blank" title="Italy_data" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/38.png?share_key=xbLAMcNgkgpLgohrMcL2nV" alt="Italy_data" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:38" sharekey-plotly="xbLAMcNgkgpLgohrMcL2nV" src="https://plotly.com/embed.js" async></script>
+</div>
+
 
 **USA:**
 
-<iframe width="720" height="800" frameborder="0" scrolling="no" src="//plot.ly/~rgivisiez/36.embed"></iframe>
+<iframe class="plotly_iframe" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rgivisiez/36.embed"></iframe>
+
+<div class="plotly">
+    <a href="https://plotly.com/~rgivisiez/36/?share_key=dyBKDjhze8fksbq3JUahPm" target="_blank" title="US_data" style="display: block; text-align: center;"><img src="https://plotly.com/~rgivisiez/36.png?share_key=dyBKDjhze8fksbq3JUahPm" alt="US_data" style="max-width: 100%;width: 720px;"  width="720" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="rgivisiez:36" sharekey-plotly="dyBKDjhze8fksbq3JUahPm" src="https://plotly.com/embed.js" async></script>
+</div>
+
 
   O estado de São Paulo se encontra em uma
 situação parecida com a de Wuhan no começo da

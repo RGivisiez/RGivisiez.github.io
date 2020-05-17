@@ -3,10 +3,6 @@ main {
   margin-top: 6em;
 } 
 
-.article {
-  margin-bottom: 2em;
-}
-
 /* Share Box */
 
 .share_box {
@@ -131,6 +127,11 @@ main {
   margin-block-end: 1.2em;
 }
 
+.plotly_iframe {
+  display: none;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 500px) {
 
   .inner_box {
@@ -163,6 +164,15 @@ main {
 }
 
 @media screen and (min-width: 1070px) {
+
+  .plotly_iframe {
+    display: inline;
+    max-width: 100%;
+  }
+
+  .plotly {
+    display: none;
+  }
 
   .post_img {
     margin: 0 -10vw;
