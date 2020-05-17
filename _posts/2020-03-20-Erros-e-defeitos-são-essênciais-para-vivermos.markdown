@@ -8,5 +8,6 @@ image: /assets/img/Erros e defeitos são essênciais/Erros e defeitos são essê
 categories: 
 tags: [Comportamento, Erros]
 image_credit: "Photo by Alexandre Debiève on Unsplash"
+image_alt: "Placa de circuito de computador"
 ---
 Falhar não é uma opção, é uma necessidade.
