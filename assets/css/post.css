@@ -74,6 +74,7 @@ main {
   background-position: center top;
   border-radius: 5px 5px 0 0;
   height: 350px;
+  pointer-events: none;
 }
 
 .post {
