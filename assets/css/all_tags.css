@@ -1,0 +1,21 @@
+.cards_area {
+  margin-top: 3em;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.tags_box {
+  width: 50%;
+  margin: 1em 0em;
+}
+
+.tags_box li {
+  padding: 0.5em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tags_box a {
+  text-decoration: none;
+}
+

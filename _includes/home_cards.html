@@ -20,7 +20,7 @@
    </p>
 
   <div class="card_tags">
-    {% for tag in post.tags %}
+    {% for tag in post.tags limit:4 %}
       <p> #{{ tag }} </p>
     {% endfor %}
   </div>
