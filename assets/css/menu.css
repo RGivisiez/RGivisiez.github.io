@@ -11,6 +11,7 @@ a h1 {
   width: calc(100% - 6vw);
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .menu_header {
