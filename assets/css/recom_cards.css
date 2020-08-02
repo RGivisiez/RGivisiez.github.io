@@ -3,11 +3,31 @@
   padding: 0 4% 1.2em 4%;
 }
 
-.recom_cards_space h3 {
-  margin: 2em 0;
+.header p {
+  text-align: justify;
+  line-height: 1.1em;
+  text-rendering: optimizeLegibility;
+  margin-block-start: 1.2em;
+  margin-block-end: 1.2em;
+  /*max-width: 800px;*/
+  padding: 1em 0em;
 }
 
-.book_space {
+.header h1:after {
+  background-color: var(--highlight_color);
+  display: block;
+  content: "";
+  height: 2px;
+  margin-top: 0.3em;
+  width: 40%;
+} 
+
+.recom_cards_space h3 {
+  margin: 2em 0;
+  font-weight: bold;
+}
+
+.list_space {
   display: flex;
   flex-direction: column;
 }
@@ -18,14 +38,14 @@
   border-radius: 5px;
   box-shadow: 2px 2px 19px 7px rgba(40, 49, 58, 0.23);
   background-color: var(--bkg_color);
+  padding: 0.5em 0.8em;
+  padding-bottom: 1.2em;
   margin-bottom: 1.5em;
 }
 
 .card_img_container {
-  text-align: center;
-  margin-right: 10px;
-  border-radius: 5px 0px 0px 5px;
-  border-right: 2px solid var(--highlight_color);
+  border-radius: 5px 5px;
+  margin: auto auto;
 }
 
 .card_img {
@@ -33,12 +53,12 @@
 }
 
 .card_img img {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 5px;
   max-height: 300px;
 }
 
 .card_body { 
-  margin: 0em 1em;
+  padding: 0em 1em;
 }
 
 .card_header {
@@ -54,23 +74,46 @@
   display: block;
   content: "";
   height: 1px;
-  margin-top: 0.5em;
-  width: 70%;
+  margin-top: 0.2em;
 } 
 
 .card_description {
   color: var(--letter_color);
 }
 
+.card_description p {
+  text-align: justify;
+  line-height: 1.1em;
+  text-rendering: optimizeLegibility;
+  margin-block-start: 1.2em;
+  margin-block-end: 1.2em;
+}
+
+.card_description li {
+  margin: 0.5em 0.4em;
+}
+
 .card_opnion {
   margin-top: 0.5em;
   margin: 0em 1em;
   color: var(--letter_color);
-  /*text-align: center;*/
 }
 
 .card_opnion h1 {
-  color: var(--bkg_color);
+  color: var(--letter_color);
+}
+
+.card_opnion h1:after {
+  background-color: var(--highlight_color);
+  display: block;
+  content: "";
+  height: 1px;
+  margin-top: 0.2em;
+} 
+
+.card_opnion li {
+  margin: 0.5em 0.4em;
+  list-style-type: disc;
 }
 
 .card_opnion svg { 
@@ -88,22 +131,23 @@
   }
 
   .card_box {
-      flex: 1 1 100%;
       flex-direction: row;
+    padding: 0em 0em;
   }
+
+  .card_img img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .card_body { 
+    flex: 1 1 50%;
+    border-left: 2px solid var(--highlight_color);
+  }
+
+  .card_opnion {
+    flex: 1 1 20%;
+    padding-bottom: 1.2em;
+    /*width: 30vw;  */
+  }
+
 }
-
-/*
-.card_img {
-  padding: 10px 10px;
-}
-
-.card_img img {
-  max-width: 60vw;
-  max-height: 300px;
-}
-
-@media screen and (min-width: 750px) {
-
-
-}*/
