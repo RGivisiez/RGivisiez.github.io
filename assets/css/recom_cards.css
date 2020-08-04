@@ -9,8 +9,13 @@
   text-rendering: optimizeLegibility;
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
-  /*max-width: 800px;*/
+  max-width: 800px;
   padding: 1em 0em;
+  margin: auto;
+}
+
+.header h1 {
+  display: inline-block;
 }
 
 .header h1:after {
@@ -19,7 +24,7 @@
   content: "";
   height: 2px;
   margin-top: 0.3em;
-  width: 40%;
+  width: 85%;
 } 
 
 .recom_cards_space h3 {
@@ -67,6 +72,7 @@
 
 .card_header h1 {
   color: var(--letter_color);
+  display: inline-block;
 }
 
 .card_header h1:after {
@@ -75,6 +81,7 @@
   content: "";
   height: 1px;
   margin-top: 0.2em;
+  width: 85%;
 } 
 
 .card_description {
@@ -93,6 +100,22 @@
   margin: 0.5em 0.4em;
 }
 
+.card_opnion_book {
+  margin-top: 0.5em;
+  margin: 0em 1em;
+  color: var(--letter_color);
+
+}
+
+.card_opnion_book h1 {
+  color: var(--bkg_color);
+}
+
+.card_opnion_book li {
+  margin: 0.5em 0.4em;
+  list-style-type: disc;
+}
+
 .card_opnion {
   margin-top: 0.5em;
   margin: 0em 1em;
@@ -101,6 +124,7 @@
 
 .card_opnion h1 {
   color: var(--letter_color);
+  display:inline-block;
 }
 
 .card_opnion h1:after {
@@ -109,16 +133,12 @@
   content: "";
   height: 1px;
   margin-top: 0.2em;
+  width: 85%;
 } 
 
 .card_opnion li {
   margin: 0.5em 0.4em;
   list-style-type: disc;
-}
-
-.card_opnion svg { 
-  max-width: 0.8em;
-  margin-right: 0.2em;
 }
 
 @media screen and (min-width: 1070px) {
@@ -144,8 +164,14 @@
     border-left: 2px solid var(--highlight_color);
   }
 
+  .card_opnion_book {
+    flex: 1 1 25%;
+    padding-bottom: 1.2em;
+    /*width: 30vw;  */
+  }
+  
   .card_opnion {
-    flex: 1 1 20%;
+    flex: 1 1 25%;
     padding-bottom: 1.2em;
     /*width: 30vw;  */
   }
