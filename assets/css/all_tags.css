@@ -1,21 +1,53 @@
-.cards_area {
-  margin-top: 3em;
+.tags_area {
   display: flex; 
   flex-wrap: wrap;
 }
 
-.tags_box {
-  width: 50%;
-  margin: 1em 0em;
+.title h1 {
+  display: inline-block;
 }
 
+.title h1:after {
+  background-color: var(--highlight_color);
+  display: block;
+  content: "";
+  height: 2px;
+  margin-top: 0.3em;
+  width: 85%;
+}
+
+.tags_box {
+  flex: 1 1 40%;
+  margin: 1em 0em;
+  margin-right: 1em;
+  background-color: var(--bkg_color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 19px 7px rgba(40, 49, 58, 0.23);
+  padding: 0em 0.5em 0em 0.5em;
+  /*max-width: 200px;*/
+}
+
+.tags_box h1 {
+  color: var(--letter_color);
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.tags_box h1:after {
+  background-color: var(--highlight_color);
+  display: block;
+  content: "";
+  height: 2px;
+  margin-top: 0.3em;
+  width: 85%;
+} 
+
 .tags_box li {
-  padding: 0.5em 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-bottom: 1em;
 }
 
 .tags_box a {
   text-decoration: none;
+  color: var(--letter_color);
 }
 

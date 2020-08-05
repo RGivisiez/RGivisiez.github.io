@@ -40,16 +40,22 @@
 
       <section class="cards_area">
 
-       {% for tag in site.tags %}
-          <div class="tags_box">
-            <h1>{{ tag[0] }}</h1>
-             <ul>
-              {% for post in tag[1] %}
-                <li ><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-              </ul>
-          </div>
-       {% endfor %}
+        <div class="title">
+          <h1>Artigos e Tags</h1>
+        </div>
+
+        <div class="tags_area">
+         {% for tag in site.tags %}
+            <div class="tags_box">
+              <h1>{{ tag[0] }}</h1>
+               <ul>
+                {% for post in tag[1] %}
+                  <li ><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+         {% endfor %}
+        </div>
 
       </section>  
 
