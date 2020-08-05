@@ -3,6 +3,39 @@
 
 @media screen and (min-width: 650px) {
 
+#basic_desktop {
+  display: none;
+}
+  #basic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+  }
+
+  #basic li {
+    padding: auto 1em;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    border-bottom: 0px solid var(--letter_color);
+    border-right: 1px solid var(--letter_color);
+  } 
+
+  #basic li:last-child {
+    border-bottom: 0px solid var(--letter_color);
+    border-right: 1px solid var(--letter_color);
+  }
+
+  #basic li:first-child {
+    border-top: 0px solid var(--letter_color);
+  }
+
+/*
+  .menu_header {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .menu {
     display:flex;
     flex-direction: row;
@@ -40,35 +73,15 @@
     min-height: 80px;
     padding-top: 0em;
   }
+*/
 
-  .menu_list {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .menu_list li {
-    padding: auto 1em;
-    font-size: 0.8em;
-    letter-spacing: 0.2em;
-    border-bottom: 0px solid var(--letter_color);
-    border-right: 1px solid var(--letter_color);
-  } 
-
-  .menu_list li:last-child {
-    border-bottom: 0px solid var(--letter_color);
-    border-right: 1px solid var(--letter_color);
-  }
-
-  .menu_list li:first-child {
-    border-top: 0px solid var(--letter_color);
-  }
-
+/*
   .menu_social {
     padding: 0 0;
   }
 
   .social svg {
     height: 30px;
-  }
+  }*/
 
 }

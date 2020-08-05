@@ -36,7 +36,6 @@ a h1 {
   color: var(--letter_color);
 }
 
-
 .name_title a {
   text-decoration: none;
   color: var(--letter_color);
@@ -53,10 +52,15 @@ a h1 {
   font-size: 0.75em;
 }
 
+#basic {
+  display: none;
+}
+
 .menu_header .toggle-nav {
   margin: auto 0;
   text-decoration: none;
   color: var(--letter_color);
+  padding-left: 2em;
   transition:color linear 0.15s;
 }
 
