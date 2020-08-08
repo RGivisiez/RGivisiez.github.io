@@ -99,6 +99,7 @@ main {
 .date_box h2 {
   padding-top: 1.2em;
   color: var(--letter_color);
+  display: inline-block;
 }
 
 .date_box h2:after {
@@ -107,7 +108,7 @@ main {
   content: "";
   height: 1px;
   margin-top: 0.2em;
-  width: 60px;
+  width: 85%;
 }
 
 .content {
