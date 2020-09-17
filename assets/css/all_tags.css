@@ -27,6 +27,11 @@
   /*max-width: 200px;*/
 }
 
+.tags_box:hover {
+  transition: all .5s ease;
+  box-shadow: 4px 7px 5px 0px rgba(40, 49, 58, 0.23);
+}
+
 .tags_box h1 {
   color: var(--letter_color);
   text-transform: capitalize;
@@ -49,5 +54,11 @@
 .tags_box a {
   text-decoration: none;
   color: var(--letter_color);
+}
+
+.tags_box a:hover {
+
+  text-decoration: underline;
+
 }
 
