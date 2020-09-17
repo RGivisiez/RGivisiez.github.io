@@ -21,11 +21,9 @@
 
 title: "Ronaldo G.M.R."
 name: "Ronaldo Givisiez"
-tagline: "Um pequeno pedaço da minha mente que insiste em fazer links
-          entre física, programação, comportamento e qualquer outra que
-          esteja lendo."
-description: "Artigos misturando física, programação, dados e qualquer outra
-              coisa que eu esteja lendo."
+tagline: "O caos da minha mente ordenado em pequenos textos."
+description: "Artigos sobre física, programação, comportamento
+              e outras coisas."
 url: "https://rgivisiez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter:
@@ -53,7 +51,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # github_username:  RGivisiez
 
 # Build settings
-paginate: 3
+paginate: 6
 paginate_path: "/page:num/"
 
 theme: minima
