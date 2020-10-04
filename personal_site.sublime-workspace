@@ -1,1 +1,1210 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"ener",
+				"energy_bin"
+			],
+			[
+				"lnz",
+				"lnZ_beta"
+			],
+			[
+				"temp",
+				"temp_steps"
+			],
+			[
+				"lnZ_be",
+				"lnZ_beta_k"
+			],
+			[
+				"make",
+				"make_dist"
+			],
+			[
+				"close",
+				"Close"
+			],
+			[
+				"Allocate",
+				"Allocate"
+			],
+			[
+				"mak",
+				"make_dist"
+			],
+			[
+				"Nh",
+				"NH"
+			],
+			[
+				"n",
+				"n_opH"
+			],
+			[
+				"np",
+				"n_opH2"
+			],
+			[
+				"Temper",
+				"temperature"
+			],
+			[
+				"para",
+				"parameter"
+			],
+			[
+				"spi",
+				"spin_idx2"
+			],
+			[
+				"spin",
+				"spin_idx1"
+			],
+			[
+				"N",
+				"Nbins"
+			],
+			[
+				"n_o",
+				"n_op"
+			],
+			[
+				"nB",
+				"Nbins"
+			],
+			[
+				"result",
+				"results_bin"
+			],
+			[
+				"n_op",
+				"n_opH"
+			],
+			[
+				"nop",
+				"n_opH2"
+			],
+			[
+				"els",
+				"elseif"
+			],
+			[
+				"nh",
+				"NH_max"
+			],
+			[
+				"NH",
+				"NH_max"
+			],
+			[
+				"Nb",
+				"Nbins"
+			],
+			[
+				"iMPL",
+				"Implicit"
+			],
+			[
+				"bou",
+				"bound"
+			],
+			[
+				"last_ver",
+				"last_vertex_visitted"
+			],
+			[
+				"first",
+				"first_vertex_visitted"
+			],
+			[
+				"firs",
+				"first_vertex_visitted"
+			],
+			[
+				"lin",
+				"vertex_link"
+			],
+			[
+				"vertex",
+				"vertexlist"
+			],
+			[
+				"is",
+				"isteps"
+			],
+			[
+				"a",
+				"adjustcutoff"
+			],
+			[
+				"ver",
+				"vertex_in"
+			],
+			[
+				"vert",
+				"vertex_link"
+			],
+			[
+				"loop",
+				"loopupdate"
+			],
+			[
+				"di",
+				"diagonalupdate"
+			],
+			[
+				"verte",
+				"vertex_link"
+			],
+			[
+				"fir",
+				"first_vertex_visitted"
+			],
+			[
+				"vetr",
+				"vertex_in"
+			],
+			[
+				"op",
+				"opstring"
+			],
+			[
+				"las",
+				"last_vertex"
+			],
+			[
+				"fi",
+				"first_vertex_visitted"
+			],
+			[
+				"last",
+				"last_vertex_visitted"
+			],
+			[
+				"bon",
+				"bound_idx"
+			],
+			[
+				"random",
+				"random_number"
+			],
+			[
+				"ra",
+				"ran"
+			],
+			[
+				"rando",
+				"random_number"
+			],
+			[
+				"in",
+				"init"
+			],
+			[
+				"bound",
+				"bound_idx"
+			],
+			[
+				"row",
+				"rows_number"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"plot",
+				"plotly"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"color",
+				"highlight_color"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"ov",
+				"overflow-y\tproperty"
+			],
+			[
+				"s",
+				"space-between\tjustify-content"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"mnu",
+				"menu_padding"
+			],
+			[
+				"menu",
+				"menu_width"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"hi",
+				"highlight_color"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"overfl",
+				"overflow-y\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"gri",
+				"grid\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"gr",
+				"grid-auto-columns\tproperty"
+			],
+			[
+				"col",
+				"letter_color"
+			],
+			[
+				"b",
+				"block\tdisplay"
+			],
+			[
+				"bl",
+				"inline-block\tdisplay"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"inlin",
+				"inline\tdisplay"
+			],
+			[
+				"soc",
+				"social_icons"
+			],
+			[
+				"grid",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-au",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"alg",
+				"align-content\tproperty"
+			],
+			[
+				"mi",
+				"min-height\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"post",
+				"post_img"
+			],
+			[
+				"cont",
+				"align-content\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"grid-co",
+				"grid-auto-columns\tproperty"
+			],
+			[
+				"overflow",
+				"overflow-y\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"titl",
+				"title_header"
+			],
+			[
+				"g",
+				"grid\tdisplay"
+			],
+			[
+				"fon",
+				"font-size-adjust\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"inli",
+				"inline\tdisplay"
+			],
+			[
+				"grid-rows",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-t",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"sty",
+				"font-style\tproperty"
+			],
+			[
+				"main",
+				"main_text_tags"
+			],
+			[
+				"gi",
+				"grid-area\tproperty"
+			],
+			[
+				"borde",
+				"border-width\tproperty"
+			],
+			[
+				"grid-temp",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"hea",
+				"head\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"dest",
+				"destaque"
+			],
+			[
+				"des",
+				"destaque_txt"
+			],
+			[
+				"grid-row",
+				"grid-row-gap\tproperty"
+			],
+			[
+				"mag",
+				"margin\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"backgr",
+				"background-position\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/menu.css",
+			"settings":
+			{
+				"buffer_size": 2461,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/menu_lateral.css",
+			"settings":
+			{
+				"buffer_size": 1538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/menu_barra.css",
+			"settings":
+			{
+				"buffer_size": 1393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/menu.html",
+			"settings":
+			{
+				"buffer_size": 2173,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/post.css",
+			"settings":
+			{
+				"buffer_size": 3413,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 1440,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/article.html",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Fortran/build-systems/GFortran.sublime-build",
+					""
+				],
+				[
+					"Packages/Fortran/build-systems/GFortran.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Fortran/build-systems/GFortran.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"conda",
+				"Conda: Activate Environment"
+			],
+			[
+				"cond",
+				"Conda: Activate Environment"
+			],
+			[
+				"conda a",
+				"Conda: Activate Environment"
+			],
+			[
+				"codna",
+				"Conda: Activate Environment"
+			],
+			[
+				"python",
+				"Build With: Python"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ronaldo/git_repo/RGivisiez.github.io",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css"
+	],
+	"file_history":
+	[
+		"/home/ronaldo/git_repo/reveal.js-EEPD/EEPD.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/personal_site.sublime-project",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_config.yml",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/alternative.yml",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes/article.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css/home_cards.css",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css/all_tags.css",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css/recom_cards.css",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/recom.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/impossible.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/all_tags.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes/home_cards.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/home.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css/post.css",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/impossible.md",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/heisenberg_sse.f90",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/hist_mult.f90",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_16x16x16.dat",
+		"/home/ronaldo/git_repo/Colab/Regras básicas.md",
+		"/home/ronaldo/git_repo/Colab/rules.md",
+		"/home/ronaldo/ahb1.f",
+		"/home/ronaldo/ahb1res.f",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/hist_info.dat",
+		"/home/ronaldo/ising-32/h_opt_parallel_Ising.f90",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Hist_E_T=1.8000_L=24_n=1.dat",
+		"/home/ronaldo/ALPS/Ising_24x24_ALPS.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/measures_L=24/Cv.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/measures_L=24/E.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/measures_L=32/Cv.dat",
+		"/home/ronaldo/ALPS/Ising_32x32_ALPS.dat",
+		"/home/ronaldo/artigo - Potts - Ising/resultados & figuras/perturbation/conv_hist.f90",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Results/parameters_L=32.dat",
+		"/home/ronaldo/Mathematica 10 Linux/Mathematica Keygen/Readme.txt",
+		"/media/ronaldo/HD Externo/Programas/Wolfram Mathematica 10.2.0.0/Mathematica Keygen/Readme.txt",
+		"/home/ronaldo/MEGAsync/Mestrado/Principais/conv_hist.f90",
+		"/home/ronaldo/artigo - Potts - Ising/resultados & figuras/root_finder_companion_matrix.f90",
+		"/home/ronaldo/MEGAsync/Mestrado/Principais/agora_vai_conv_hist_root.f90",
+		"/home/ronaldo/artigo - Potts - Ising/resultados & figuras/cut_Histo_T=2.2752_L=150_cut=0.0E+00.dat",
+		"/home/ronaldo/artigo - Potts - Ising/resultados & figuras/HD_coefficients.dat",
+		"/home/ronaldo/artigo - Potts - Ising/resultados & figuras/HD_polynomial_roots.dat",
+		"/home/ronaldo/git_repo/Colab/.gitignore",
+		"/home/ronaldo/git_repo/Colab/.gitattributes",
+		"/home/ronaldo/.config/sublime-merge/Packages/User/Commit Message.sublime-settings",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/about.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/Gemfile.lock",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes/menu.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts/projetos.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes/social.html",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_data/2020-03-17-COVID-19.markdown",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/dist_n_16x16x16_T=1.0500Nn=0.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/dist_e_16x16x16_T=1.0500Nn=0.dat",
+		"/home/ronaldo/.cache/.fr-iNzPvx/DRIVE dataset/Readme.txt",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=1.8000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=1.9000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.0000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.1000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.2000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.3000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.4000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.5000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/EEPD-EFisher/Hist_E_T=2.6000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Hist_E_T=2.6000_L=24_n=1.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Hist_E_T=2.6000_L=32_n=1.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/measures_L=32/Z.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Results/tempo_L=32.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Results/dados_L=32.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Ti=1.8000_L=32_cut=1.0E-01/conv_Ti=1.8000_L=32_cut=1.0E-01.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Ti=1.8000_L=32_cut=1.0E-04/conv_Ti=1.8000_L=32_cut=1.0E-04.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Ising_32x32_ALPS.dat",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/Hist_E_T=2.2600_L=150_n=2.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/raw_16x16x16_T=1.0500.dat",
+		"/home/ronaldo/git_repo/RGivisiez.github.io/recom.md",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/README.md",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_Staggered Magnetization^2.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_Susceptibility.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_Susceptibility.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_Magnetization^2.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_Energy.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_Staggered Magnetization.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_n^2.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ALPS_n.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_n^2.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_n.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_Energy.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_Magnetization^2.dat",
+		"/home/ronaldo/ALPS/3D - SSE/ALPS_Staggered Magnetization.dat",
+		"/home/ronaldo/read.in",
+		"/home/ronaldo/ahb1.h",
+		"/home/ronaldo/rand.in",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/raw_10x10x10_T=1.1000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_8x8x1.dat",
+		"/home/ronaldo/log.txt",
+		"/home/ronaldo/git_repo/Hist_mult-Zeros/ahb1.f",
+		"/home/ronaldo/ahb1.f90",
+		"/home/ronaldo/scan_sse.f90",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results2.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_4x4x4.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=1.3000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=1.2000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=1.0000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/cut-off_10x10x10_T=1.1000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/raw_10x10x10_T=1.4000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=1.4000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/cut-off_10x10x10_T=1.4000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=1.4000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=1.3000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=1.2000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=1.0000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=1.1000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.9000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.5000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.6000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.7000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.8000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=0.8000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/cut-off_10x10x10_T=0.8000.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/adjustcutoff.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_bin.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/results_raw.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/Alps_energy.dat",
+		"/home/ronaldo/MEGAsync/Mestrado/Principais/Ising/h_opt_parallel_Ising.f90",
+		"/home/ronaldo/sse-heisenberg/resultados-3d-heisenberg.dat",
+		"/home/ronaldo/sse-heisenberg/ALPS_energ.dat",
+		"/home/ronaldo/sse-heisenberg/ALPS_suc.dat",
+		"/home/ronaldo/git_repo/Heisenberg-SSE/ener.dat",
+		"/home/ronaldo/sse-heisenberg/0.7/sse.f90"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";*/\n",
+			" {",
+			"style=\"",
+			"</li>",
+			"list-style-type: disc;",
+			"<li>",
+			"              <",
+			"<ul style=\"margin: 1em 1em; list-style-type: disc;\">",
+			"</ul>",
+			"          </",
+			"<h1>",
+			"h2",
+			"<ul>",
+			"ul",
+			".",
+			"-",
+			".",
+			"n_opH",
+			"20",
+			"24",
+			"monte_carlo",
+			"wolff",
+			"24",
+			"24_n",
+			"2.6",
+			"Hist_E_T=2.6000_L=24_n=1.dat 2.6d0 100000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/menu.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/menu_lateral.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/menu_barra.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "_includes/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/post.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3130,
+								3130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1039,
+								1039
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/article.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.421831896907,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 120.0
+	},
+	"output.anaconda_documentation":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 209.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/Fortran/build-systems/GFortran.sublime-build",
+	"project": "personal_site.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
