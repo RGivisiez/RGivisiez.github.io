@@ -71,6 +71,14 @@
   padding: 0em 1em;
 }
 
+.card_body a:link {
+  color: var(--highlight_color);
+}
+
+.card_body a:visited {
+  color: var(--highlight_color);
+}
+
 .card_header {
   border-radius: 5px;
 }
