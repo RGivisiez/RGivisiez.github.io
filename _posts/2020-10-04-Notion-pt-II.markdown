@@ -44,14 +44,15 @@ As páginas no Notion são muito versáteis, além de texto e imagens, também p
 
 Além da automatização descrita acima, as páginas são ideais para fazer anotações sobre o projeto e até de estudos. Como é possível adicionar texto, imagens, equações e referências nas páginas, o Notion se mostrou perfeito para fazer notas de aula ou artigos. A imagem abaixo mostra um pequeno pedaço do artigo que estou escrevendo; repare também, que é possível mudar tanto a cor quanto fonte do texto.
 
-<img style="display: block; margin: auto auto; max-height: auto; width: auto;"  src="/assets/img/Notion/8-2.png">
+<img style="display: block; margin: auto auto; max-height: auto;"  src="/assets/img/Notion/8-2.png">
 
 # Mais exemplos e conclusão
 
 Nesse texto, eu só abordei uma pequena parcela do que pode ser feito no Notion. O próprio app já vem com algumas páginas prontas, como é o caso da lista de filmes abaixo, e outras são criadas pela comunidade. Além disso, o Notion tem a opção de criar um template, uma página padronizada que pode ser criada diversas vezes com um único clique, a segunda imagem abaixo mostra o meu template de pré-escrita de artigos. Os templates padronizados ajudam em tarefas repetitivas. 
 
-<img style="display: block; margin: auto auto; max-height: 550px; width: auto;" src="/assets/img/Notion/1 1-2.png">
+<img style="display: block; margin: auto auto; max-height: 550px;" src="/assets/img/Notion/1 1-2.png">
 
-<img  style="display: block; margin: auto auto; max-height: auto; width: auto;" src="/assets/img/Notion/2 1-2.png">
+<img  style="display: block; margin: auto auto; max-height: auto;" src="/assets/img/Notion/2 1-2.png">
+
 
 Espero que os dois artigos tenham sido uteis e que você esteja pensando em dar uma chance para o Notion. Então, vou deixar um pequeno alerta aqui: o app é muito bom, mas a curva de aprendizado é demorada, você pode ficar super estressado tentando fazer a área de trabalho perfeita. Se eu puder te dar um conselho, sugiro que mantenha as coisas o mais simples possível e que não refaça sua área de trabalho com frequência, por mais que isso seja tentador. A ideia é melhorar a produtividade, não ser improdutivo e estressado. No mais, se você fizer um conta no Notion, não esqueça de dar uma passada na minha área de trabalho <a target="_blank" href="https://www.notion.so/DON-T-PANIC-v1-0-573ca645a83a41198f0d6082377e62a0">compartilhada</a>, já tem muita coisa pronta lá.
