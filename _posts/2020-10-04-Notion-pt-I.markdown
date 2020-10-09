@@ -10,6 +10,14 @@ image_credit: "Photo by Victor He on Unsplash"
 image_alt: "Post-it"
 ---
 
+<style>
+span {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+</style>
+
 Para quem não conhece o Notion, ele é uma ferramenta poderosa para organização de praticamente qualquer coisa. Eu costumo usá-lo para organizar minha lista de compras, as tarefas da semana, o meu fluxo de trabalho e para controlar o processo de escrita de artigos; esse é o nível de versatilidade do app. Ele realmente cumpre a promessa de ser all-in-one. 
 
 Nessa primeira parte do artigo não vou falar muito sobre o Notion, deixei esse tema para a <a target="_blank" href="{% post_url 2020-10-04-Notion-pt-II %}">segunda parte</a>, onde eu mostro algumas funções do app e como ele facilita muito a organização. O tema que irei abordar aqui é o sistema de trabalho que uso para tirar meus projetos do papel  e que, a princípio, pode ser usado em qualquer app. 
@@ -19,58 +27,70 @@ Nessa primeira parte do artigo não vou falar muito sobre o Notion, deixei esse 
 </div>
 
 
-
 Antes de mais nada, temos que aceitar um pequeno fato: um aplicativo não vai fazer você ser mais eficiente. Você já deve ter reparado que algumas pessoas conseguem fazer muita coisa só com um bloquinho de papel e uma caneta Bic azul, enquanto outras tem 15 aplicativos, 8 canetas coloridas e 2 coachs quânticos e não fazem muito. Claramente a diferença está na execução, quem consegue focar nos projetos realmente importantes, aqueles que trazem um bom retorno quando concluídos, são mais eficientes. Então, a minha proposta aqui é mostrar o sistema que uso para me manter focado e que me permite checar se estou realmente trabalhando nos projetos importantes. Abaixo eu descrevo o sistema que uso e como faço para monta-lo.
 
 # Meu processo:
 
-<ol style="list-style-type: decimal;">
-    <li>
-        <p> A primeira coisa é fazer uma lista com os projetos que são importantes e definir a prioridade de cada um deles. Não tem problema a lista ser grande, é só lembrar de executar aqueles com maior prioridade. </p>
-            <img src="/assets/img/Notion/1-1.png"> 
-    </li>
-    <li>
-        <p> Alguns projetos podem durar meses ou até mesmo anos para serem concluídos e nem sempre é possível trabalhar em todos eles ao mesmo tempo. Então, eu olho para a lista anterior e escolho alguns para serem executados no mês. Eu tento não escolher mais do que 4 projetos por mês. </p>
-            <figure>
-                <img src="/assets/img/Notion/notion1.png">
-                <figcaption>Meus quatro projetos do mês.</figcaption>
-            </figure>
-    </li>
-    <li>
-        <p> Depois de definir os projetos que vou executar no mês, eu os quebro em tarefas um pouco mais simples, mas que ainda são trabalhosas o suficiente para serem feitas ao longo de um mês inteiro. </p>
-        <p> As tarefas do mês para o projeto de Escrita em inglês (o que tem a bandeira dos EUA), ficaria assim: </p>
-            <img src="/assets/img/Notion/3-1.png" style="display: block; margin: auto auto; max-height: 350px; width: auto;">
-        <p> Abaixo eu deixei a imagem da minha página atual de projetos e tarefas do mês. </p>
-            <img src="/assets/img/Notion/notion2.png">
-        <p>Repare que eu mantenho a coerência entre o que eu quero fazer e o que estou fazendo, a maioria das coisas que estão programadas para serem feitas no mês tem relação com algum projeto, as setas vermelhas indicam a relação entre os projetos e as tarefas mensais.</p>
-    </li>
-    <li>
-        <p> Com o mês pronto, o último passo é organizar a semana. É nessa parte que as tarefas são quebradas em coisas bem mais simples e de fácil execução. Além disso, eu costumo separar as tarefas por prioridade e não por dia da semana, como geralmente as pessoas fazem. Sigo as seguintes regras para definir a prioridade das tarefas:</p>
-            <div style="margin-left: 5%;">
-                <ul style="list-style-type: square; ">
-                    <li> 
-                        <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(105,64,165)">Necessidade</mark>: Qualquer coisa que precisa ser feita no mesmo dia ou vou ser muito prejudicado. Em geral, tento executar essa tarefa na parte da manhã. </p>
-                    </li>
-                    <li> 
-                        <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(224,62,62)">Alta</mark>: Qualquer coisa que tenha um retorno bom para os meus objetivos. Normalmente, aqui vão estar tarefas relacionadas com algum dos projetos.</p>
-                    </li>
-                    <li> 
-                        <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(223,171,1)">Normal</mark>: Coisas que devem ser feitas, porém, não tem um impacto tão grande quanto as tarefas com a prioridade mais alta.</p>
-                    </li>
-                    <li> 
-                        <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(15,123,108)">Baixa</mark>: Coisas interessantes, divertidas ou que eu só tive vontade de fazer, mas que não necessariamente vão afetar minha se forem feitas ou não.</p>
-                    </li>
-                </ul>
-            </div>
-        <p> Continuando com o projeto de Escrita em inglês, ele teria prioridade Normal e as tarefas da semana seriam essas:</p>
-            <img src="/assets/img/Notion/2-1.png" style="display: block; margin: auto auto; max-height: 350px; width: auto;">
-        <p> A imagem abaixo é da minha lista atual de tarefas da semana.</p>
-            <img src="/assets/img/Notion/notion3.png">
-    </li>
-    <li>
-        <p> Com as tarefas da semana definidas, agora é só executá-las dando preferência aquelas com alta prioridade.</p>
-    </li>
-</ol>
+<span>1)</span> A primeira coisa é fazer uma lista com os projetos que são importantes e definir a prioridade de cada um deles. Não tem problema a lista ser grande, é só lembrar de executar aqueles com maior prioridade.
+
+<img src="/assets/img/Notion/1-1.png"> 
+
+---
+
+<span>2)</span> Alguns projetos podem durar meses ou até mesmo anos para serem concluídos e nem sempre é possível trabalhar em todos eles ao mesmo tempo. Então, eu olho para a lista anterior e escolho alguns para serem executados no mês. Eu tento não escolher mais do que 4 projetos por mês.
+
+<img src="/assets/img/Notion/notion1.png">
+
+---
+
+<span>3)</span> Depois de definir os projetos que vou executar no mês, eu os quebro em tarefas um pouco mais simples, mas que ainda são trabalhosas o suficiente para serem feitas ao longo de um mês inteiro.
+
+As tarefas do mês para o projeto de Escrita em inglês (o que tem a bandeira dos EUA), ficaria assim:
+
+<img src="/assets/img/Notion/3-1.png" style="display: block; margin: auto auto; max-height: 350px; width: auto;">
+
+Abaixo eu deixei a imagem da minha página atual de projetos e tarefas do mês. 
+
+<img src="/assets/img/Notion/notion2.png">
+
+Repare que eu mantenho a coerência entre o que eu quero fazer e o que estou fazendo, a maioria das coisas que estão programadas para serem feitas no mês tem relação com algum projeto, as setas vermelhas indicam a relação entre os projetos e as tarefas mensais.
+
+---
+
+<span>4)</span> Com o mês pronto, o último passo é organizar a semana. É nessa parte que as tarefas são quebradas em coisas bem mais simples e de fácil execução. Além disso, eu costumo separar as tarefas por prioridade e não por dia da semana, como geralmente as pessoas fazem. Sigo as seguintes regras para definir a prioridade das tarefas:
+
+<div style="margin-left: 5%;">
+    <ul style="list-style-type: square; ">
+        <li> 
+            <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(105,64,165)">Necessidade</mark>: Qualquer coisa que precisa ser feita no mesmo dia ou vou ser muito prejudicado. Em geral, tento executar essa tarefa na parte da manhã. </p>
+        </li>
+        <li> 
+            <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(224,62,62)">Alta</mark>: Qualquer coisa que tenha um retorno bom para os meus objetivos. Normalmente, aqui vão estar tarefas relacionadas com algum dos projetos.</p>
+        </li>
+        <li> 
+            <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(223,171,1)">Normal</mark>: Coisas que devem ser feitas, porém, não tem um impacto tão grande quanto as tarefas com a prioridade mais alta.</p>
+        </li>
+        <li> 
+            <p> <mark style="font-weight: bold; background-color: transparent; color: rgb(15,123,108)">Baixa</mark>: Coisas interessantes, divertidas ou que eu só tive vontade de fazer, mas que não necessariamente vão afetar minha se forem feitas ou não.</p>
+        </li>
+    </ul>
+</div>
+
+Continuando com o projeto de Escrita em inglês, ele teria prioridade Normal e as tarefas da semana seriam essas:
+
+<img src="/assets/img/Notion/2-1.png" style="display: block; margin: auto auto; max-height: 350px; width: auto;">
+
+A imagem abaixo é da minha lista atual de tarefas da semana.
+
+<img src="/assets/img/Notion/notion3.png">
+
+---
+
+<span>5)</span> Com as tarefas da semana definidas, agora é só executá-las dando preferência aquelas com alta prioridade.
+
+<br>
+
+<h1> Comentários Finais </h1>
 
 O que foi feito até aqui é bem simples, eu escolhi um projeto grande e complexo, fui quebrando ele em partes menores, primeiro no mês, onde ele ainda tem objetivos complicados, e depois na semana, onde os objetivos são simples e estão organizados por prioridade. O sistema em si não é nada muito complicado, o ponto chave veem agora que é observar a coerência na execução das tarefas.
 

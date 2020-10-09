@@ -119,14 +119,27 @@ main {
   background: white;
   min-height: 230px;
   padding: 1.3em 4vw;
+  padding-bottom: 5.5em;
   box-shadow: 8px 14px 30px 0px rgba(40, 49, 58, 0.23);
   border-bottom: 0.1em solid var(--highlight_color);
 }
 
+.content h1 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.3em; 
+  padding-bottom: 0.3em; 
+  width: 80%;
+  border-bottom: 3px solid var(--highlight_color);
+  border-top: 3px solid var(--highlight_color);
+}
+
 .content p {
-  /*font-family: var(--second_font);*/
+  font-family: var(--second_font);
   text-align: justify;
-  line-height: 1.6em;
+  line-height: 32px; /*1.6em;*/
   text-rendering: optimizeLegibility;
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
@@ -178,7 +191,7 @@ main {
   }
 
   main {
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 
@@ -202,7 +215,7 @@ main {
   .inner_box {
     width: 100%;
     margin: 0 auto;
-    max-width: 920px;
+    max-width: 880px;
     padding: 0 0;
   }
 
