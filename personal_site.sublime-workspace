@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"a",
+				"space-around\talign-content"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
 				"font-s",
 				"font-size\tproperty"
 			],
@@ -28,10 +56,6 @@
 				"margin\tproperty"
 			],
 			[
-				"a",
-				"auto\twidth"
-			],
-			[
 				"l",
 				"li\tTag"
 			],
@@ -48,20 +72,12 @@
 				"width\tproperty"
 			],
 			[
-				"ali",
-				"align-content\tproperty"
-			],
-			[
 				"spac",
 				"space-between\tjustify-content"
 			],
 			[
 				"al",
 				"align-content\tproperty"
-			],
-			[
-				"margi",
-				"margin\tproperty"
 			],
 			[
 				"ener",
@@ -208,10 +224,6 @@
 				"loopupdate"
 			],
 			[
-				"di",
-				"diagonalupdate"
-			],
-			[
 				"verte",
 				"vertex_link"
 			],
@@ -256,10 +268,6 @@
 				"random_number"
 			],
 			[
-				"in",
-				"init"
-			],
-			[
 				"bound",
 				"bound_idx"
 			],
@@ -270,10 +278,6 @@
 			[
 				"marg",
 				"margin\tproperty"
-			],
-			[
-				"pad",
-				"padding\tproperty"
 			],
 			[
 				"fle",
@@ -346,10 +350,6 @@
 			[
 				"align",
 				"align-items\tproperty"
-			],
-			[
-				"text",
-				"text-decoration\tproperty"
 			],
 			[
 				"hi",
@@ -523,7 +523,7 @@
 			"file": "_posts/2020-10-04-Notion-pt-I.markdown",
 			"settings":
 			{
-				"buffer_size": 8735,
+				"buffer_size": 8208,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,17 +532,16 @@
 			"file": "assets/css/post.css",
 			"settings":
 			{
-				"buffer_size": 3453,
+				"buffer_size": 3740,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/style.css",
+			"file": "_includes/article.html",
 			"settings":
 			{
-				"buffer_size": 376,
-				"encoding": "UTF-8",
+				"buffer_size": 397,
 				"line_ending": "Unix"
 			}
 		},
@@ -658,12 +657,11 @@
 	[
 		"/home/ronaldo/git_repo/RGivisiez.github.io",
 		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes",
-		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts",
-		"/home/ronaldo/git_repo/RGivisiez.github.io/assets",
-		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css"
+		"/home/ronaldo/git_repo/RGivisiez.github.io/_layouts"
 	],
 	"file_history":
 	[
+		"/home/ronaldo/git_repo/RGivisiez.github.io/assets/css/style.css",
 		"/home/ronaldo/git_repo/RGivisiez.github.io/_includes/article.html",
 		"/home/ronaldo/git_repo/Colab/Regras básicas.md",
 		"/home/ronaldo/git_repo/RGivisiez.github.io/_config.yml",
@@ -790,8 +788,7 @@
 		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.6000.dat",
 		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.7000.dat",
 		"/home/ronaldo/git_repo/Heisenberg-SSE/results_10x10x10_T=0.8000.dat",
-		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=0.8000.dat",
-		"/home/ronaldo/git_repo/Heisenberg-SSE/cut-off_10x10x10_T=0.8000.dat"
+		"/home/ronaldo/git_repo/Heisenberg-SSE/bin_10x10x10_T=0.8000.dat"
 	],
 	"find":
 	{
@@ -809,6 +806,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"content",
+			"2px",
+			"box",
+			"h2",
+			"<p>",
+			"ta ",
+			"\n<p>",
+			"\n<",
+			"spam",
+			"span",
 			"120px",
 			"120",
 			"7",
@@ -879,15 +886,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8735,
+						"buffer_size": 8208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2320,
-								2320
+								5824,
+								5824
 							]
 						],
 						"settings":
@@ -897,7 +904,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 2226.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -915,15 +922,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3453,
+						"buffer_size": 3740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3029,
-								3029
+								1835,
+								1835
 							]
 						],
 						"settings":
@@ -933,7 +940,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1858.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -941,24 +948,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/css/style.css",
-					"semi_transient": false,
+					"file": "_includes/article.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								367,
-								367
+								360,
+								360
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -966,7 +973,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -994,7 +1001,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
