@@ -22,7 +22,7 @@ Para quem não conhece o Notion, ele é uma ferramenta poderosa para organizaç�
 
 Nessa primeira parte do artigo não vou falar muito sobre o Notion, deixei esse tema para a <a target="_blank" href="{% post_url 2020-10-04-Notion-pt-II %}">segunda parte</a>, onde eu mostro algumas funções do app e como ele facilita muito a organização. O tema que irei abordar aqui é o sistema de trabalho que uso para tirar meus projetos do papel  e que, a princípio, pode ser usado em qualquer app. 
 
-<div style="background-color: rgb(221 222 222); border-radius: 10px; padding: 20px;">
+<div style="background-color: #aba38ec2; border-radius: 10px; padding: 20px;">
 <p style="margin: 0 0;"><span class="icon">⛔</span> Se você já tem uma conta no Notion eu compartilhei uma versão da minha área de trabalho nesse <a target="_blank" href="https://www.notion.so/DON-T-PANIC-v1-0-573ca645a83a41198f0d6082377e62a0">link</a>. Então, você pode ir lendo o artigo e testando o sistema que uso.</p>
 </div>
 
@@ -88,8 +88,6 @@ A imagem abaixo é da minha lista atual de tarefas da semana.
 
 <span>5)</span> Com as tarefas da semana definidas, agora é só executá-las dando preferência aquelas com alta prioridade.
 
-<br>
-
 <h1> Comentários Finais </h1>
 
 O que foi feito até aqui é bem simples, eu escolhi um projeto grande e complexo, fui quebrando ele em partes menores, primeiro no mês, onde ele ainda tem objetivos complicados, e depois na semana, onde os objetivos são simples e estão organizados por prioridade. O sistema em si não é nada muito complicado, o ponto chave veem agora que é observar a coerência na execução das tarefas.
@@ -98,7 +96,7 @@ O que foi feito até aqui é bem simples, eu escolhi um projeto grande e complex
 
 Esse sistema pode ser muito trabalhoso para ser mantido, ficar organizando e checando as coisas não é fácil. Por isso, eu recomendo usar o Notion, que faz com que tudo fique mais simples e automatizado. Um bom exemplo são as minhas páginas de projetos, dentro de cada uma delas eu guardo minhas anotações sobre o projeto e o Notion, automaticamente, gera me mostra todas as tarefas relacionadas com esse projeto em específico. Essa é só uma das capacidades do Notion, é possível fazer muita coisa interessante nele. Na segunda parte desse artigo, eu mostro com mais detalhes como o Notion facilita o uso desse sistema e como eu também uso ele para fazer a minha lista de compras, filmes e séries.
 
-<div style="background-color: rgb(221 222 222); border-radius: 10px; padding: 20px;"><p style="margin: 0 0;">
+<div style="background-color: #aba38ec2; border-radius: 10px; padding: 20px;"><p style="margin: 0 0;">
 <span class="icon">⛔</span>
 Se quiser ver a minha área de trabalho no Notion é só criar uma conta e acessar esse <a target="_blank" href="https://www.notion.so/DON-T-PANIC-v1-0-573ca645a83a41198f0d6082377e62a0">link</a>.</p>
 </div>
