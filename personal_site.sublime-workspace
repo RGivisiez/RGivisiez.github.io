@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
 				"margi",
 				"margin-bottom\tproperty"
 			],
@@ -50,10 +58,6 @@
 			[
 				"list",
 				"list-style-type\tproperty"
-			],
-			[
-				"mar",
-				"margin\tproperty"
 			],
 			[
 				"l",
@@ -274,10 +278,6 @@
 			[
 				"row",
 				"rows_number"
-			],
-			[
-				"marg",
-				"margin\tproperty"
 			],
 			[
 				"fle",
@@ -523,7 +523,7 @@
 			"file": "_posts/2020-10-04-Notion-pt-I.markdown",
 			"settings":
 			{
-				"buffer_size": 8208,
+				"buffer_size": 8188,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "assets/css/post.css",
 			"settings":
 			{
-				"buffer_size": 3740,
+				"buffer_size": 3785,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -817,6 +817,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rgb(221 222 222)",
+			"1em",
 			"content",
 			"2px",
 			"box",
@@ -897,15 +899,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8208,
+						"buffer_size": 8188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5824,
-								5824
+								1337,
+								1337
 							]
 						],
 						"settings":
@@ -915,16 +917,16 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 966.0,
+						"translation.y": 148.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -933,15 +935,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3740,
+						"buffer_size": 3785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1835,
-								1835
+								1950,
+								1950
 							]
 						],
 						"settings":
@@ -954,7 +956,7 @@
 						"translation.y": 1858.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -984,7 +986,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1014,7 +1016,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
