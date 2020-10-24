@@ -1,3 +1,4 @@
 ---
 layout: impossible
+sitemap: false
 ---
