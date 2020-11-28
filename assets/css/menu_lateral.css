@@ -7,6 +7,8 @@
     display: inline;
     width: var(--menu_width);
     padding: 3em var(--menu_padding);
+    overflow-y: auto;
+    height: 100vh;
   }
 
   .menu_header .site_id {
@@ -53,7 +55,7 @@
   .menu_body {
     display: block;
     padding-top: 3em;
-    min-height: 100vh;
+    min-height: 550px;
   }
 
   #basic_desktop {
